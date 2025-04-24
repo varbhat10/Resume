@@ -68,14 +68,12 @@ export default function Home() {
               className="hidden lg:block relative"
             >
               <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
-                <div className="relative w-full h-full">
-                  <Image 
-                    src="/images/suitpic.jpg" 
-                    alt="Varun Bhat" 
-                    fill 
-                    className="object-cover object-center"
-                    priority
-                  />
+                {/* Placeholder with initial */}
+                <div className="text-center text-primary">
+                  <div className="w-40 h-40 rounded-full bg-primary/20 flex items-center justify-center mb-4 mx-auto">
+                    <span className="text-6xl font-bold">V</span>
+                  </div>
+                  <p className="text-sm">Add profile photo at:<br />public/images/suitpic.jpg</p>
                 </div>
               </div>
               

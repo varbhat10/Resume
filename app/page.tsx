@@ -71,7 +71,7 @@ export default function Home() {
                 {/* Photo with fallback */}
                 <div className="relative w-full h-full">
                   <Image
-                    src="/images/suitpic.jpg"
+                    src="/Resume/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
                     style={{ objectFit: 'cover' }}

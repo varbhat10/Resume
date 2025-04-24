@@ -65,7 +65,7 @@ const Navbar = () => {
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled 
-          ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-lg'
+          ? 'bg-site-bg-light/90 dark:bg-site-bg-dark/90 backdrop-blur-sm shadow-lg'
           : 'bg-transparent'
       }`}
     >
@@ -98,7 +98,7 @@ const Navbar = () => {
               className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
               aria-label="Toggle theme"
             >
-              {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-600" />}
+              {darkMode ? <FaSun className="text-primary" /> : <FaMoon className="text-accent" />}
             </button>
           </div>
 
@@ -109,7 +109,7 @@ const Navbar = () => {
               className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 mr-2"
               aria-label="Toggle theme"
             >
-              {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-600" />}
+              {darkMode ? <FaSun className="text-primary" /> : <FaMoon className="text-accent" />}
             </button>
             <button
               onClick={toggleMenu}
@@ -125,7 +125,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div 
-        className={`md:hidden absolute w-full bg-white dark:bg-gray-800 shadow-lg transition-all duration-300 ease-in-out ${
+        className={`md:hidden absolute w-full bg-site-bg-light dark:bg-site-bg-dark shadow-lg transition-all duration-300 ease-in-out ${
           isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 invisible'
         } overflow-hidden`}
       >

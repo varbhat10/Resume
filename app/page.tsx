@@ -70,22 +70,15 @@ export default function Home() {
               <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
                 {/* Photo with circular crop */}
                 <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30">
+                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700"></div>
                   <Image
                     src="/Resume/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
                     style={{ objectFit: 'cover', objectPosition: 'center' }}
                     priority
-                    onError={(e) => {
-                      // If image fails to load, fallback will show (styled div below)
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                    }}
+                    className="z-10 relative"
                   />
-                  
-                  {/* Fallback that shows if image doesn't load */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full">
-                  </div>
                 </div>
               </div>
               

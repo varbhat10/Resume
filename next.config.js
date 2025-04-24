@@ -4,6 +4,12 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   // If your GitHub repo name is NOT yourusername.github.io,
   // uncomment and update the following line:

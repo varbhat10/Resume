@@ -67,7 +67,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="hidden lg:block relative"
             >
-              <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
+              <div className="relative w-full h-80 flex items-center justify-center">
                 {/* Photo with circular crop */}
                 <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30">
                   <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700"></div>
@@ -81,10 +81,6 @@ export default function Home() {
                   />
                 </div>
               </div>
-              
-              {/* Floating decoration elements */}
-              <div className="absolute -top-10 -right-10 w-20 h-20 bg-primary/20 rounded-full"></div>
-              <div className="absolute -bottom-5 -left-5 w-16 h-16 bg-accent/30 rounded-full"></div>
             </motion.div>
           </div>
           

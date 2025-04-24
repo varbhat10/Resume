@@ -68,13 +68,13 @@ export default function Home() {
               className="hidden lg:block relative"
             >
               <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
-                {/* Photo with fallback */}
-                <div className="relative w-full h-full">
+                {/* Photo with circular crop */}
+                <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30">
                   <Image
                     src="/Resume/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'cover', objectPosition: 'center' }}
                     priority
                     onError={(e) => {
                       // If image fails to load, fallback will show (styled div below)
@@ -84,11 +84,8 @@ export default function Home() {
                   />
                   
                   {/* Fallback that shows if image doesn't load */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center text-primary">
-                    <div className="w-40 h-40 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-                      <span className="text-6xl font-bold">V</span>
-                    </div>
-                    <p className="text-sm text-center">Add profile photo at:<br />public/images/suitpic.jpg</p>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-primary bg-accent/20 dark:bg-primary/20 rounded-full">
+                    <span className="text-6xl font-bold">V</span>
                   </div>
                 </div>
               </div>

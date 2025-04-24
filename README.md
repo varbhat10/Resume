@@ -1,6 +1,6 @@
-# Varun D. Bhat - Personal Portfolio Website
+# Varun Bhat - Personal Portfolio Website
 
-A modern, responsive portfolio website highlighting Varun Bhat's skills as an Oregon State University Computer Science student, AWS Certified Cloud Practitioner, and software developer.
+A modern, responsive portfolio website highlighting my skills as an Oregon State University Computer Science student, AWS Certified Cloud Practitioner, and software developer.
 
 ## Features
 
@@ -45,15 +45,6 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Deployment
-
-This application can be deployed to platforms like Vercel or Netlify with minimal configuration.
-
-### Deploying to Vercel
-
-1. Push your code to a GitHub repository
-2. Import your repository to Vercel
-3. Vercel will automatically detect Next.js and configure the build settings
 
 ## Technology Stack
 

@@ -68,12 +68,28 @@ export default function Home() {
               className="hidden lg:block relative"
             >
               <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
-                {/* Placeholder with initial */}
-                <div className="text-center text-primary">
-                  <div className="w-40 h-40 rounded-full bg-primary/20 flex items-center justify-center mb-4 mx-auto">
-                    <span className="text-6xl font-bold">V</span>
+                {/* Photo with fallback */}
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/images/suitpic.jpg"
+                    alt="Varun Bhat"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                    priority
+                    onError={(e) => {
+                      // If image fails to load, fallback will show (styled div below)
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                  />
+                  
+                  {/* Fallback that shows if image doesn't load */}
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-primary">
+                    <div className="w-40 h-40 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+                      <span className="text-6xl font-bold">V</span>
+                    </div>
+                    <p className="text-sm text-center">Add profile photo at:<br />public/images/suitpic.jpg</p>
                   </div>
-                  <p className="text-sm">Add profile photo at:<br />public/images/suitpic.jpg</p>
                 </div>
               </div>
               

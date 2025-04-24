@@ -42,7 +42,7 @@
   }
 
   .card {
-    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow;
+    @apply bg-white dark:bg-site-bg-dark rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow;
   }
   
   .text-gradient {

@@ -393,7 +393,7 @@ export default function Home() {
             </div>
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md max-w-lg">
+              <div className="bg-white dark:bg-site-bg-dark p-6 rounded-lg shadow-md max-w-lg">
                 <h3 className="text-xl font-bold mb-3 text-primary">JoyBox</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                   Co-founded an organization that delivers gifts and personalized letters to cancer patients at Doernbecher Pediatric Hospital.

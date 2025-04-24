@@ -7,7 +7,7 @@ const nextConfig = {
   },
   // If your GitHub repo name is NOT yourusername.github.io,
   // uncomment and update the following line:
-  // basePath: '/your-repo-name',
+   basePath: 'varbhat10/Resume',
 };
 
 module.exports = nextConfig; 

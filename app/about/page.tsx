@@ -18,7 +18,7 @@ export default function About() {
         >
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Computer Science student at Oregon State University with a passion for innovative technology solutions.
+            Computer Science student at Oregon State University with the hunger to learn more.
           </p>
         </motion.div>
         
@@ -45,7 +45,7 @@ export default function About() {
             className="lg:col-span-3"
           >
             <h2 className="text-3xl font-bold mb-4">Varun Bhat</h2>
-            <p className="text-xl text-primary font-medium mb-6">Computer Science Student | AWS Certified</p>
+            <p className="text-xl text-primary font-medium mb-6">Oregon State University | AWS Certified Cloud Practitioner</p>
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
@@ -63,7 +63,7 @@ export default function About() {
                 allowing me to apply my skills in a real-world industry partnership.
               </p>
               <p>
-                When I'm not coding, you can find me enjoying machine learning, robotics, motorcycles, tennis, hiking, and spicy food.
+                When I'm not coding, you can find me at the gym or cuddling with my cat.
               </p>
             </div>
             

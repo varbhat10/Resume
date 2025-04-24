@@ -69,9 +69,13 @@ export default function Home() {
             >
               <div className="relative w-full h-80 bg-accent/20 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
                 <div className="relative w-full h-full">
-                  <div className="absolute inset-0 flex items-center justify-center text-primary text-lg">
-                    Add my photo<br />
-                  </div>
+                  <Image 
+                    src="/images/suitpic.jpg" 
+                    alt="Varun Bhat" 
+                    fill 
+                    className="object-cover object-center"
+                    priority
+                  />
                 </div>
               </div>
               
@@ -105,11 +109,11 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-4">My Tech Stack</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Technologies I work with as an AWS Cloud Practitioner and Software Developer
+              Technologies/Services I work with regularly
             </p>
           </motion.div>
           
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 justify-items-center">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-6 justify-items-center">
             {[
               { icon: FaPython, name: "Python", color: "text-primary" },
               { icon: FaReact, name: "React", color: "text-cyan-400" },
@@ -170,7 +174,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Meet My Cat</h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  This is my homie Sophie. She keeps me company during long coding sessions, and of course, beg for food!
+                  This is my homie Sophie. She keeps me company during long coding sessions, and of course, never forgets to beg for food!
                 </p>
               </div>
             </motion.div>
@@ -191,8 +195,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  I enjoy motorcycles, tennis, hiking, and spicy food. These activities help me maintain 
-                  a balanced life and keep my creativity flowing.
+                  I enjoy staying active. Motorcycles, the gym, tennis, hiking, and spicy food help keep me sane and human.
                 </p>
               </div>
             </motion.div>
@@ -370,12 +373,12 @@ export default function Home() {
           </div>
           
           <div className="mt-10 text-center">
-            <Link href="/about" className="btn border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800">
-              View Full Experience
+             <Link href="/about" className="btn border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800">
+              More About Me
             </Link>
           </div>
         </div>
-      </section>
+      </section> 
       
       {/* Community Impact - NEW */}
       <section className="py-20">
@@ -399,7 +402,7 @@ export default function Home() {
                   Co-founded an organization that delivers gifts and personalized letters to cancer patients at Doernbecher Pediatric Hospital.
                 </p>
                 <p className="italic text-gray-600 dark:text-gray-400">
-                  "Working with JoyBox has been one of the most rewarding experiences of my life."
+                  Working with JoyBox has been one of the most rewarding experiences I have had.
                 </p>
               </div>
             </div>

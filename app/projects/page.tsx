@@ -15,8 +15,8 @@ const projects = [
     longDescription: 'Created a CNN-based application that can identify cat breeds from images using transfer learning. The model was built using Python with TensorFlow and Keras, implementing VGG16 architecture with fine-tuning to achieve high accuracy. This project demonstrates my skills in machine learning, computer vision, and deep learning techniques.',
     tags: ['Python', 'TensorFlow', 'Keras', 'CNN', 'VGG16', 'Transfer Learning'],
     image: '/images/project-placeholder.svg',
-    github: 'https://github.com/',
-    demo: 'https://demo.com/',
+    github: null,
+    demo: null,
     featured: true,
     icons: [FaPython, SiTensorflow, SiKeras]
   },
@@ -27,8 +27,8 @@ const projects = [
     longDescription: 'Designed and implemented a comprehensive web application for managing bookstore operations. Built the backend using Node.js and created an intuitive frontend with HTML, CSS, and JavaScript. The system features inventory management, order processing, and customer management capabilities. Implemented multi-worker processing and modular components for efficient data extraction and client handling.',
     tags: ['Node.js', 'JavaScript', 'HTML/CSS', 'Database Design', 'RESTful API'],
     image: '/images/project-placeholder.svg',
-    github: 'https://github.com/',
-    demo: 'https://demo.com/',
+    github: null,
+    demo: null,
     featured: true,
     icons: [FaNodeJs, SiJavascript, FaHtml5]
   },
@@ -106,7 +106,7 @@ export default function Projects() {
         >
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">My Projects</h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A collection of my technical projects showcasing skills in Python, machine learning, web development, and AWS.
+            A collection of my technical projects showcasing skills.
           </p>
         </motion.div>
         
@@ -246,12 +246,12 @@ export default function Projects() {
           viewport={{ once: true }}
           className="mt-20 text-center"
         >
-          <h2 className="text-2xl font-bold mb-4">Interested in collaborating?</h2>
+          <h2 className="text-2xl font-bold mb-4"></h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-6">
-            I'm always open to new projects and opportunities. Let's create something amazing together!
+            I'm always open to new projects and opportunities. Let's create something cool.
           </p>
           <Link href="/contact" className="btn btn-primary">
-            Get In Touch
+            Hit me up
           </Link>
         </motion.div>
       </div>

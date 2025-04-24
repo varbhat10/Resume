@@ -145,7 +145,8 @@ export default function Contact() {
                   Currently open to:
                 </p>
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2">
-                  <li>Software Development Internships</li>
+                  <li>Software Development/Architecture Internships</li>
+                  <li>Project Management Internships</li>
                   <li>Freelance Projects/Jobs</li>
                   <li>Collaborative Projects</li>
                 </ul>
@@ -160,7 +161,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="card p-8">
-              <h2 className="text-2xl font-bold mb-6">Send Me a Message</h2>
+              <h2 className="text-2xl font-bold mb-6">Send Me a Message (Currently Unavailable Please Email Directly)</h2>
               
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-lg">

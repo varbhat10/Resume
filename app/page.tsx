@@ -84,8 +84,7 @@ export default function Home() {
                   />
                   
                   {/* Fallback that shows if image doesn't load */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center text-primary bg-accent/20 dark:bg-primary/20 rounded-full">
-                    <span className="text-6xl font-bold">V</span>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full">
                   </div>
                 </div>
               </div>

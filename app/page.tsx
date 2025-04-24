@@ -22,7 +22,7 @@ export default function Home() {
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
                 <span className="block">Hi, I'm</span>
-                <span className="text-primary block mt-2">Varun D. Bhat</span>
+                <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600 dark:text-gray-300">
                 Computer Science Student at OSU
@@ -41,7 +41,7 @@ export default function Home() {
               </div>
               <div className="flex mt-8 space-x-4">
                 <a 
-                  href="https://github.com/" 
+                  href="https://github.com/varbhat10/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
@@ -50,7 +50,7 @@ export default function Home() {
                   <FaGithub className="h-6 w-6" />
                 </a>
                 <a 
-                  href="https://linkedin.com/" 
+                  href="https://www.linkedin.com/in/varun-bhat-osu/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"

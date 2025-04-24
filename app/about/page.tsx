@@ -44,7 +44,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="lg:col-span-3"
           >
-            <h2 className="text-3xl font-bold mb-4">Varun D. Bhat</h2>
+            <h2 className="text-3xl font-bold mb-4">Varun Bhat</h2>
             <p className="text-xl text-primary font-medium mb-6">Computer Science Student | AWS Certified</p>
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
@@ -100,7 +100,7 @@ export default function About() {
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="text-xl font-bold">BS in Computer Science</h3>
                     <span className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full font-medium">
-                      2021 - 2025
+                      2022 - 2025
                     </span>
                   </div>
                   <p className="text-gray-800 dark:text-gray-200 font-medium">Oregon State University, Corvallis, OR</p>

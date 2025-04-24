@@ -59,7 +59,7 @@ export default function Contact() {
         >
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Get In Touch</h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Have a question or want to discuss a potential project? Feel free to reach out!
+            Have a question or want to discuss anything? Please hit me up!
           </p>
         </motion.div>
         
@@ -119,7 +119,7 @@ export default function Contact() {
                 <h3 className="font-semibold text-lg mb-4">Connect With Me</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/" 
+                    href="https://github.com/varbhat10/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-100 dark:bg-gray-800 p-3 rounded-full hover:bg-primary/10 transition-colors"
@@ -128,7 +128,7 @@ export default function Contact() {
                     <FaGithub className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://linkedin.com/" 
+                    href="https://www.linkedin.com/in/varun-bhat-osu/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-100 dark:bg-gray-800 p-3 rounded-full hover:bg-primary/10 transition-colors"
@@ -145,10 +145,9 @@ export default function Contact() {
                   Currently open to:
                 </p>
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2">
-                  <li>Job opportunities (June 2025+)</li>
-                  <li>Internships</li>
-                  <li>Freelance projects</li>
-                  <li>Collaborative projects</li>
+                  <li>Software Development Internships</li>
+                  <li>Freelance Projects/Jobs</li>
+                  <li>Collaborative Projects</li>
                 </ul>
               </div>
             </div>
@@ -220,7 +219,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-primary focus:border-transparent"
-                    placeholder="Job Opportunity"
+                    placeholder="Job Opportunity ;)"
                   />
                 </div>
                 
@@ -236,7 +235,7 @@ export default function Contact() {
                     required
                     rows={5}
                     className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
-                    placeholder="Hello, I'd like to talk about..."
+                    placeholder="Hey what's up hello"
                   ></textarea>
                 </div>
                 

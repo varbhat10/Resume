@@ -21,8 +21,8 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col mb-4 md:mb-0">
-            <h3 className="font-semibold mb-2">Quick Links</h3>
-            <div className="grid grid-cols-2 gap-x-12 gap-y-2">
+            <h3 className="font-semibold mb-2"></h3>
+            <div className="grid grid-cols-4 gap-x-5 gap-y-4">
               <Link href="/" className="text-sm hover:text-primary transition-colors">
                 Home
               </Link>
@@ -42,7 +42,7 @@ const Footer = () => {
             <h3 className="font-semibold mb-2 text-center md:text-right">Connect With Me</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/varbhat10/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <FaGithub className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/" 
+                href="https://www.linkedin.com/in/varun-bhat-osu/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"

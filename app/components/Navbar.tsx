@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary">
-            <span className="text-gradient">Varun B.</span>
+            <span className="text-gradient">Varun Bhat</span>
           </Link>
 
           {/* Desktop Menu */}

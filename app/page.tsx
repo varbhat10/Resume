@@ -111,13 +111,13 @@ export default function Home() {
           
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 justify-items-center">
             {[
-              { icon: FaPython, name: "Python", color: "text-blue-500" },
+              { icon: FaPython, name: "Python", color: "text-primary" },
               { icon: FaReact, name: "React", color: "text-cyan-400" },
               { icon: FaNodeJs, name: "Node.js", color: "text-green-500" },
               { icon: FaJava, name: "Java", color: "text-red-500" },
               { icon: FaHtml5, name: "HTML", color: "text-orange-500" },
               { icon: FaAws, name: "AWS", color: "text-yellow-500" },
-              { icon: FaDocker, name: "Docker", color: "text-blue-600" },
+              { icon: FaDocker, name: "Docker", color: "text-primary" },
               { icon: SiJenkins, name: "Jenkins", color: "text-red-600" },
               { icon: SiPostman, name: "Postman", color: "text-orange-600" },
             ].map((tech, index) => (

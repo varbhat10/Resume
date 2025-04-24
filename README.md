@@ -1,5 +1,7 @@
 # Varun Bhat - Personal Portfolio Website
 
+https://varbhat10.github.io/Resume/
+
 A modern, responsive portfolio website highlighting my skills as an Oregon State University Computer Science student, AWS Certified Cloud Practitioner, and software developer.
 
 ## Features
@@ -43,7 +45,7 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result locally OR see it live at https://varbhat10.github.io/Resume/ 
 
 
 ## Technology Stack

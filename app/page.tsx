@@ -158,11 +158,12 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <img
                   src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'scale(1.5)', transformOrigin: 'center' }}
                 />
               </div>
               <div className="p-6">

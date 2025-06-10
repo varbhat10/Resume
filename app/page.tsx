@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaArrowDown, FaGithub, FaLinkedin, FaAws, FaPython, FaReact, FaJava, FaHtml5, FaNodeJs, FaDocker } from 'react-icons/fa';
 import { SiJenkins, SiPostman } from 'react-icons/si';
@@ -160,13 +159,10 @@ export default function Home() {
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
               <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
-                <Image
-                  src="/images/sophiepose.jpg"
+                <img
+                  src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  className="hover:scale-105 transition-transform duration-300"
-                  priority
+                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

@@ -165,10 +165,14 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative flex items-center justify-center">
-                <div className="text-gray-500 dark:text-gray-400 text-center p-4">
-                  Sophie pic<br />
-                </div>
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
+                <Image
+                  src="/Resume/images/sophiepose.jpg"
+                  alt="Sophie the cat"
+                  fill
+                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  className="hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Meet My Cat</h3>
@@ -186,15 +190,15 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative flex items-center justify-center">
-                <div className="text-gray-500 dark:text-gray-400 text-center p-4">
-                  add sum shit<br />
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
+                <div className="absolute inset-0 flex items-center justify-center bg-gray-300 dark:bg-gray-600 p-4">
+                  <span className="text-4xl">🏍️ 🏋️‍♂️ 🎾 🍜</span>
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  I enjoy staying active. Motorcycles, the gym, tennis, hiking, and spicy food help keep me sane and human.
+                  I enjoy travelling (Most Recently Japan) and staying active. Motorcycles, working out, tennis, hiking, and spicy food
                 </p>
               </div>
             </motion.div>

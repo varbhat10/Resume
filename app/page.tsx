@@ -167,7 +167,7 @@ export default function Home() {
                   src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'scale(0.5)', transformOrigin: 'center top', objectPosition: 'center top' }}
+                  style={{ transform: 'scale(0.85)', transformOrigin: 'center 30%', objectPosition: 'center 30%' }}
                 />
               </div>
               <div className="p-6">

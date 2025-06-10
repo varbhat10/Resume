@@ -167,11 +167,11 @@ export default function Home() {
                   src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'scale(0.85)', transformOrigin: 'center 30%', objectPosition: 'center 30%' }}
+                  style={{ objectPosition: 'center 30%' }}
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Me0.5My Cat</h3>
+                <h3 className="text-xl font-bold mb-2">My Cat</h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   This is my homie Sophie. She keeps me company during long coding sessions, and of course, never forgets to beg for food!
                 </p>
@@ -191,7 +191,7 @@ export default function Home() {
                   src="/Resume/images/motorcycleresume.jpg"
                   alt="Motorcycle adventures"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'scale(0.6)', transformOrigin: 'center' }}
+                  style={{ objectPosition: 'center center' }}
                 />
               </div>
               <div className="p-6">

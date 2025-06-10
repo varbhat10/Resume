@@ -69,7 +69,7 @@ export default function Home() {
             >
               <div className="relative w-full h-80 flex items-center justify-center">
                 {/* Photo with circular crop */}
-                <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30">
+                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
                   <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700"></div>
                   <Image
                     src="/Resume/images/suitpic.jpg"

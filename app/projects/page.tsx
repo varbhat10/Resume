@@ -58,12 +58,11 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Pathology Research Web Platform',
-    description: 'Developed for OHSU to support pathology research in a primate lab.',
+    title: 'Science Education Platform.',
+    description: 'Developed and educated for OHSU to support research and education.',
     longDescription: 'Built a specialized web platform for the Oregon Health & Science University to support pathology research. The application facilitated data collection, analysis, and visualization for researchers, streamlining their workflow and improving research efficiency. Implemented using a combination of HTML, CSS, and JavaScript to create an intuitive interface for scientific staff.',
     tags: ['HTML/CSS', 'JavaScript', 'Research Platform', 'Data Visualization'],
     image: '/images/project-placeholder.svg',
-    github: 'https://github.com/',
     demo: null,
     featured: false,
     icons: [FaHtml5, SiJavascript]
@@ -71,11 +70,10 @@ const projects = [
   {
     id: 6,
     title: 'AWS Cloud Infrastructure',
-    description: 'Designed and implemented AWS services including EC2, S3, and DynamoDB for application hosting.',
+    description: 'Designed and implemented AWS services including EC2, S3, and DynamoDB for application hosting for a variety of projects.',
     longDescription: 'Leveraged my AWS Cloud Practitioner certification to design and implement cloud infrastructure for application hosting. The project included setting up EC2 instances for computing, S3 buckets for storage, and DynamoDB for database services. Implemented security best practices, automated scaling, and monitoring to ensure optimal performance and reliability.',
     tags: ['AWS', 'EC2', 'S3', 'DynamoDB', 'Cloud Architecture'],
     image: '/images/project-placeholder.svg',
-    github: 'https://github.com/',
     demo: null,
     featured: false,
     icons: [FaAws]

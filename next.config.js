@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   images: {
+    loader: 'custom',
+    loaderFile: './image-loader.js',
     unoptimized: true,
     remotePatterns: [
       {
@@ -11,6 +13,7 @@ const nextConfig = {
       },
     ],
   },
+  transpilePackages: ["next-image-export-optimizer"],
   // If your GitHub repo name is NOT yourusername.github.io,
   // uncomment and update the following line:
   basePath: '/Resume',

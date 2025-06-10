@@ -5,9 +5,24 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt, FaPython, FaReact, FaNodeJs, FaHtml5, FaAws, FaJava, FaRobot } from 'react-icons/fa';
 import { SiTensorflow, SiKeras, SiMongodb, SiJavascript, SiCplusplus } from 'react-icons/si';
+import { IconType } from 'react-icons';
+
+// Define Project interface
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  longDescription: string;
+  tags: string[];
+  image: string;
+  github: string | null;
+  demo: string | null;
+  featured: boolean;
+  icons: IconType[];
+}
 
 // Project data matching Varun's resume
-const projects = [
+const projects: Project[] = [
   {
     id: 1,
     title: 'Shazam for Cats (Breed Classifier)',
@@ -63,6 +78,7 @@ const projects = [
     longDescription: 'Built a specialized web platform for the Oregon Health & Science University to support pathology research. The application facilitated data collection, analysis, and visualization for researchers, streamlining their workflow and improving research efficiency. Implemented using a combination of HTML, CSS, and JavaScript to create an intuitive interface for scientific staff.',
     tags: ['HTML/CSS', 'JavaScript', 'Research Platform', 'Data Visualization'],
     image: '/images/project-placeholder.svg',
+    github: null,
     demo: null,
     featured: false,
     icons: [FaHtml5, SiJavascript]
@@ -74,6 +90,7 @@ const projects = [
     longDescription: 'Leveraged my AWS Cloud Practitioner certification to design and implement cloud infrastructure for application hosting. The project included setting up EC2 instances for computing, S3 buckets for storage, and DynamoDB for database services. Implemented security best practices, automated scaling, and monitoring to ensure optimal performance and reliability.',
     tags: ['AWS', 'EC2', 'S3', 'DynamoDB', 'Cloud Architecture'],
     image: '/images/project-placeholder.svg',
+    github: null,
     demo: null,
     featured: false,
     icons: [FaAws]
@@ -81,7 +98,7 @@ const projects = [
 ];
 
 // Technology icon mapping
-const TechIcons = ({ icons }: { icons: any[] }) => (
+const TechIcons = ({ icons }: { icons: IconType[] }) => (
   <div className="flex space-x-3 mb-4">
     {icons.map((Icon, index) => (
       <span key={index} className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full">

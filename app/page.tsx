@@ -75,7 +75,6 @@ export default function Home() {
                     src="/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
                     style={{ objectFit: 'cover', objectPosition: 'center' }}
                     priority
                     className="z-10 relative"
@@ -171,7 +170,6 @@ export default function Home() {
                   src="/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: 'cover', objectPosition: 'center' }}
                   className="hover:scale-105 transition-transform duration-300"
                 />
@@ -197,7 +195,6 @@ export default function Home() {
                   src="/images/motorcycleresume.jpg"
                   alt="Motorcycle adventures"
                   fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: 'cover', objectPosition: 'center' }}
                   className="hover:scale-105 transition-transform duration-300"
                 />

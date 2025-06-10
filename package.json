@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && touch out/.nojekyll",
-    "postbuild": "next-image-export-optimizer",
     "start": "next start",
     "lint": "next lint"
   },

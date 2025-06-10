@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaGraduationCap, FaLaptopCode, FaBriefcase, FaAward, FaHospital, FaShoppingCart, FaPizzaSlice } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -32,8 +33,13 @@ export default function About() {
             className="lg:col-span-2"
           >
             <div className="aspect-square bg-primary/10 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
-              <div className="text-9xl text-primary font-bold">V</div>
-              {/* Replace with an actual image: <img src="/images/profile.jpg" alt="Profile" className="w-full h-full object-cover" /> */}
+              <Image
+                src="/images/suitpic.jpg"
+                alt="Varun Bhat"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                className="hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </motion.div>
           

@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
                   <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700"></div>
                   <Image
-                    src="/Resume/images/suitpic.jpg"
+                    src="/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
                     style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -167,7 +167,7 @@ export default function Home() {
             >
               <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
                 <Image
-                  src="/Resume/images/sophiepose.jpg"
+                  src="/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   fill
                   style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -191,9 +191,13 @@ export default function Home() {
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
               <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
-                <div className="absolute inset-0 flex items-center justify-center bg-gray-300 dark:bg-gray-600 p-4">
-                  <span className="text-4xl">🏍️ 🏋️‍♂️ 🎾 🍜</span>
-                </div>
+                <Image
+                  src="/images/motorcycleresume.jpg"
+                  alt="Motorcycle adventures"
+                  fill
+                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  className="hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>

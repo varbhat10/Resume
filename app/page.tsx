@@ -75,9 +75,9 @@ export default function Home() {
                     src="/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
-                    style={{ objectFit: 'cover', objectPosition: 'center' }}
+                    style={{ objectFit: 'cover' }}
                     priority
-                    className="z-10 relative"
+                    className="z-10"
                   />
                 </div>
               </div>
@@ -170,8 +170,9 @@ export default function Home() {
                   src="/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   fill
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  style={{ objectFit: 'cover' }}
                   className="hover:scale-105 transition-transform duration-300"
+                  priority
                 />
               </div>
               <div className="p-6">
@@ -195,8 +196,9 @@ export default function Home() {
                   src="/images/motorcycleresume.jpg"
                   alt="Motorcycle adventures"
                   fill
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  style={{ objectFit: 'cover' }}
                   className="hover:scale-105 transition-transform duration-300"
+                  priority
                 />
               </div>
               <div className="p-6">

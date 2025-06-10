@@ -37,8 +37,9 @@ export default function About() {
                 src="/images/suitpic.jpg"
                 alt="Varun Bhat"
                 fill
-                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                style={{ objectFit: 'cover' }}
                 className="hover:scale-105 transition-transform duration-300"
+                priority
               />
             </div>
           </motion.div>

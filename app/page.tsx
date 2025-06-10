@@ -167,7 +167,7 @@ export default function Home() {
                   src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'scale(1.5)', transformOrigin: 'center' }}
+                  style={{ transform: 'scale(0.5)', transformOrigin: 'center' }}
                 />
               </div>
               <div className="p-6">
@@ -191,7 +191,7 @@ export default function Home() {
                   src="/Resume/images/motorcycleresume.jpg"
                   alt="Motorcycle adventures"
                   className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'scale(1.2)', transformOrigin: 'center' }}
+                  style={{ transform: 'scale(0.8)', transformOrigin: 'center' }}
                 />
               </div>
               <div className="p-6">

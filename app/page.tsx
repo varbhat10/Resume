@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaArrowDown, FaGithub, FaLinkedin, FaAws, FaPython, FaReact, FaJava, FaHtml5, FaNodeJs, FaDocker } from 'react-icons/fa';
 import { SiJenkins, SiPostman } from 'react-icons/si';
@@ -70,15 +69,9 @@ export default function Home() {
               <div className="relative w-full h-80 flex items-center justify-center">
                 {/* Photo with circular crop */}
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
-                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700"></div>
-                  <Image
-                    src="/images/suitpic.jpg"
-                    alt="Varun Bhat"
-                    fill
-                    style={{ objectFit: 'cover' }}
-                    priority
-                    className="z-10"
-                  />
+                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                    <span className="text-4xl font-bold">V</span>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -165,15 +158,8 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
-                <Image
-                  src="/images/sophiepose.jpg"
-                  alt="Sophie the cat"
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  className="hover:scale-105 transition-transform duration-300"
-                  priority
-                />
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative flex items-center justify-center">
+                <span className="text-4xl">🐱</span>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Meet My Cat</h3>
@@ -191,15 +177,8 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
-                <Image
-                  src="/images/motorcycleresume.jpg"
-                  alt="Motorcycle adventures"
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  className="hover:scale-105 transition-transform duration-300"
-                  priority
-                />
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative flex items-center justify-center">
+                <span className="text-4xl">🏍️</span>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>

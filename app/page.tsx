@@ -69,8 +69,12 @@ export default function Home() {
               <div className="relative w-full h-80 flex items-center justify-center">
                 {/* Photo with circular crop */}
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
-                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <span className="text-4xl font-bold">V</span>
+                  <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700">
+                    <img
+                      src="/Resume/images/suitpic.jpg"
+                      alt="Varun Bhat"
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -182,8 +186,13 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative flex items-center justify-center">
-                <span className="text-4xl">🏍️</span>
+              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+                <img
+                  src="/Resume/images/motorcycleresume.jpg"
+                  alt="Motorcycle adventures"
+                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'scale(1.2)', transformOrigin: 'center' }}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>

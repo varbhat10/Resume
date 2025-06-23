@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-xl font-bold text-primary">
-              OSU CS Resume
+              Varun Bhat CS Resume
             </Link>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-              Computer Science Student @ Oregon State University
+              Computer Science 2025 Graduate @ Oregon State University
             </p>
           </div>
           
@@ -72,7 +72,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700">
           <p className="text-center text-sm text-gray-600 dark:text-gray-400">
-            © {currentYear} OSU CS Portfolio. All rights reserved.
+            © {currentYear} Varun Bhat CS Portfolio. All rights reserved.
           </p>
         </div>
       </div>

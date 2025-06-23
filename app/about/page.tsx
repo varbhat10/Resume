@@ -114,7 +114,7 @@ export default function About() {
                     GPA: 3.86/4.0
                   </p>
                   <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
-                    <li>Honors: Finley Academic Scholarship</li>
+                    <li>Honors: Various Academic Scholarships, Dean's List Finalist, IB Diploma</li>
                     <li>Senior Project: Artificial Intelligence Chatbot with Hewlett-Packard</li>
                   </ul>
                 </div>

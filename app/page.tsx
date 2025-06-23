@@ -258,21 +258,21 @@ export default function Home() {
             >
               <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <Image
-                  src="/Resume/images/bookstore.jpg"
-                  alt="Online Bookstore Management System screenshot"
+                  src="/Resume/images/PetRX.jpg"
+                  alt="PetRX Pet Medication Safety application screenshot"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Online Bookstore Management System</h3>
+                <h3 className="text-xl font-bold mb-2">PetRX - Pet Medication Safety</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Designed a web-based application to manage bookstore inventory with efficient data handling.
+                  Comprehensive web application for pet medication tracking, drug interaction checking, and AI-powered safety analysis.
                 </p>
                 <div className="flex gap-2 mb-4">
-                  <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Node.js</span>
-                  <span className="text-xs px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">HTML/CSS</span>
-                  <span className="text-xs px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full">JavaScript</span>
+                  <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">React</span>
+                  <span className="text-xs px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">Node.js</span>
+                  <span className="text-xs px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">AI/ML</span>
                 </div>
                 <Link href="/projects" className="text-primary hover:underline font-medium">View Project →</Link>
               </div>

@@ -50,15 +50,15 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Online Bookstore Management System',
-    description: 'A web-based application to manage bookstore inventory with efficient data handling.',
-    longDescription: 'Designed and implemented a comprehensive web application for managing bookstore operations. Built the backend using Node.js and created an intuitive frontend with HTML, CSS, and JavaScript. The system features inventory management, order processing, and customer management capabilities. Implemented multi-worker processing and modular components for efficient data extraction and client handling.',
-    tags: ['Node.js', 'JavaScript', 'HTML/CSS', 'Database Design', 'RESTful API'],
+    title: 'PetRX - Pet Medication Safety Monitor',
+    description: 'Comprehensive pet medication safety monitoring web application with AI-powered drug interaction analysis.',
+    longDescription: 'Developed a full-stack web application to help pet owners and veterinarians track medications, check for dangerous drug interactions, and ensure pet safety through intelligent monitoring. Features include pet profile management, real-time drug interaction checking, AI-powered safety analysis using OpenAI GPT, PDF report generation, and comprehensive dashboards. Built with React frontend, Node.js/Express backend, MongoDB database, and Python FastAPI for ML services.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Python', 'AI/ML', 'OpenAI GPT', 'FastAPI', 'Docker'],
     image: '/images/project-placeholder.svg',
     github: null,
     demo: null,
     featured: true,
-    icons: [FaNodeJs, SiJavascript, FaHtml5]
+    icons: [FaReact, FaNodeJs, FaPython]
   },
   {
     id: 4,
@@ -156,8 +156,8 @@ export default function Projects() {
                     )}
                     {project.id === 3 && (
                       <Image
-                        src="/Resume/images/bookstore.jpg"
-                        alt="Online Bookstore Management System screenshot"
+                        src="/Resume/images/PetRX.jpg"
+                        alt="PetRX Pet Medication Safety application screenshot"
                         fill
                         className="object-cover hover:scale-105 transition-transform duration-300"
                       />

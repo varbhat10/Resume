@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaGraduationCap, FaLaptopCode, FaBriefcase, FaAward, FaHospital, FaShoppingCart, FaPizzaSlice } from 'react-icons/fa';
 
 export default function About() {
@@ -31,8 +32,14 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="lg:col-span-2"
           >
-            <div className="aspect-square bg-primary/10 dark:bg-primary/20 rounded-lg overflow-hidden flex items-center justify-center">
-              <div className="text-6xl font-bold">V</div>
+            <div className="aspect-square bg-primary/10 dark:bg-primary/20 rounded-lg overflow-hidden">
+              <Image
+                src="/images/hikingrest.jpg"
+                alt="Varun Bhat hiking"
+                width={500}
+                height={500}
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
           

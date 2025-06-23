@@ -34,7 +34,7 @@ export default function About() {
           >
             <div className="aspect-square bg-primary/10 dark:bg-primary/20 rounded-lg overflow-hidden">
               <Image
-                src="/images/hikingrest.jpg"
+                src="/Resume/images/hikingrest.jpg"
                 alt="Varun Bhat hiking"
                 width={500}
                 height={500}

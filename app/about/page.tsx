@@ -115,7 +115,7 @@ export default function About() {
                   </p>
                   <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mt-2 space-y-1">
                     <li>Honors: Various Academic Scholarships, Dean's List Finalist, IB Diploma</li>
-                    <li>Senior Project: Artificial Intelligence Chatbot with Hewlett-Packard</li>
+                    <li>Senior Project: Artificial Intelligence Chatbot with Hewlett-Packard (HP)</li>
                   </ul>
                 </div>
               </div>

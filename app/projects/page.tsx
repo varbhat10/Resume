@@ -37,6 +37,18 @@ const projects: Project[] = [
   },
   {
     id: 2,
+    title: 'AI Chatbot in Collaboration with HP',
+    description: 'Senior project developing an Artificial Intelligence Chatbot in partnership with Hewlett-Packard.',
+    longDescription: 'Working on an advanced AI chatbot system in collaboration with Hewlett-Packard as part of my senior capstone. The chatbot leverages natural language processing and machine learning to provide intelligent responses and assistance with a model trained on OSU data. This project involved working with a large team and implementing industry best practices.',
+    tags: ['Python', 'AWS', 'NLP', 'Machine Learning', 'AI', 'Industry Collaboration'],
+    image: '/images/project-placeholder.svg',
+    github: null,
+    demo: null,
+    featured: true,
+    icons: [FaPython, FaRobot]
+  },
+  {
+    id: 3,
     title: 'Online Bookstore Management System',
     description: 'A web-based application to manage bookstore inventory with efficient data handling.',
     longDescription: 'Designed and implemented a comprehensive web application for managing bookstore operations. Built the backend using Node.js and created an intuitive frontend with HTML, CSS, and JavaScript. The system features inventory management, order processing, and customer management capabilities. Implemented multi-worker processing and modular components for efficient data extraction and client handling.',
@@ -46,18 +58,6 @@ const projects: Project[] = [
     demo: null,
     featured: true,
     icons: [FaNodeJs, SiJavascript, FaHtml5]
-  },
-  {
-    id: 3,
-    title: 'AI Chatbot in Collaboration with HP',
-    description: 'Senior project developing an Artificial Intelligence Chatbot in partnership with Hewlett-Packard.',
-    longDescription: 'Working on an advanced AI chatbot system in collaboration with Hewlett-Packard as part of my senior project. The chatbot leverages natural language processing and machine learning to provide intelligent responses and assistance. This project involves working with a team of professionals and implementing industry best practices for AI system development.',
-    tags: ['Python', 'NLP', 'Machine Learning', 'AI', 'Industry Collaboration'],
-    image: '/images/project-placeholder.svg',
-    github: null,
-    demo: null,
-    featured: true,
-    icons: [FaPython, FaRobot]
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: 'AWS Cloud Infrastructure',
-    description: 'Designed and implemented AWS services including EC2, S3, and DynamoDB for application hosting for a variety of projects.',
+    description: 'Designed and implemented AWS services including EC2, S3, Lambda, and DynamoDB for application hosting for a large variety of projects.',
     longDescription: 'Leveraged my AWS Cloud Practitioner certification to design and implement cloud infrastructure for application hosting. The project included setting up EC2 instances for computing, S3 buckets for storage, and DynamoDB for database services. Implemented security best practices, automated scaling, and monitoring to ensure optimal performance and reliability.',
     tags: ['AWS', 'EC2', 'S3', 'DynamoDB', 'Cloud Architecture'],
     image: '/images/project-placeholder.svg',

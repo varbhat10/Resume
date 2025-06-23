@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaArrowDown, FaGithub, FaLinkedin, FaAws, FaPython, FaReact, FaJava, FaHtml5, FaNodeJs, FaDocker } from 'react-icons/fa';
 import { SiJenkins, SiPostman } from 'react-icons/si';
@@ -28,7 +29,7 @@ export default function Home() {
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700 dark:text-gray-300">
                 Graduating in 2025 with a passion for software development, AWS cloud solutions, 
-                and machine learning. Currently working on an AI Chatbot project with Hewlett-Packard.
+                and machine learning. Most recently created an AI Chatbot for OSU with Hewlett-Packard.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/projects" className="btn btn-primary">
@@ -280,8 +281,13 @@ export default function Home() {
               viewport={{ once: true, margin: "-100px" }}
               className="card"
             >
-              <div className="aspect-video bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                <span className="text-3xl">🤖</span>
+              <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+                <Image
+                  src="/Resume/images/chatbotex.jpg"
+                  alt="AI Chatbot project screenshot"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">AI Chatbot with HP</h3>

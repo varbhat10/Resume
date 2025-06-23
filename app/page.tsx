@@ -293,7 +293,7 @@ export default function Home() {
             >
               <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <Image
-                  src="/Resume/images/chatbotex.jpg"
+                  src="/Resume/images/chatbotxex.jpg"
                   alt="AI Chatbot project screenshot"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"

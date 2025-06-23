@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt, FaPython, FaReact, FaNodeJs, FaHtml5, FaAws, FaJava, FaRobot } from 'react-icons/fa';
 import { SiTensorflow, SiKeras, SiMongodb, SiJavascript, SiCplusplus } from 'react-icons/si';
@@ -141,10 +142,26 @@ export default function Projects() {
                 className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
               >
                 <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                  <div className="rounded-lg overflow-hidden shadow-md bg-gray-200 dark:bg-gray-700 aspect-video flex items-center justify-center">
-                    {project.id === 1 && <span className="text-6xl">🐱</span>}
-                    {project.id === 2 && <span className="text-6xl">📚</span>}
-                    {project.id === 3 && <span className="text-6xl">🤖</span>}
+                  <div className="rounded-lg overflow-hidden shadow-md bg-gray-200 dark:bg-gray-700 aspect-video relative">
+                    {project.id === 1 && (
+                      <span className="text-6xl absolute inset-0 flex items-center justify-center">🐱</span>
+                    )}
+                    {project.id === 2 && (
+                      <Image
+                        src="/Resume/images/chatbotex.jpg"
+                        alt="AI Chatbot project screenshot"
+                        fill
+                        className="object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    )}
+                    {project.id === 3 && (
+                      <Image
+                        src="/Resume/images/bookstore.jpg"
+                        alt="Online Bookstore Management System screenshot"
+                        fill
+                        className="object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    )}
                   </div>
                 </div>
                 

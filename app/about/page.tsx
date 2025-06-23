@@ -104,7 +104,7 @@ export default function About() {
               <div className="space-y-8">
                 <div>
                   <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-xl font-bold">BS in Computer Science</h3>
+                    <h3 className="text-xl font-bold">BS in Computer Science, Minor in Business</h3>
                     <span className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full font-medium">
                       2022 - 2025
                     </span>

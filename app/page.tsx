@@ -231,8 +231,13 @@ export default function Home() {
               viewport={{ once: true, margin: "-100px" }}
               className="card"
             >
-              <div className="aspect-video bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                <span className="text-3xl">🐱</span>
+              <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+                <Image
+                  src="/Resume/images/CatShazam.jpg"
+                  alt="Shazam for Cats breed classifier application screenshot"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Shazam for Cats</h3>

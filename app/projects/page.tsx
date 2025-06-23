@@ -144,7 +144,12 @@ export default function Projects() {
                 <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <div className="rounded-lg overflow-hidden shadow-md bg-gray-200 dark:bg-gray-700 aspect-video relative">
                     {project.id === 1 && (
-                      <span className="text-6xl absolute inset-0 flex items-center justify-center">🐱</span>
+                      <Image
+                        src="/Resume/images/CatShazam.jpg"
+                        alt="Shazam for Cats breed classifier application screenshot"
+                        fill
+                        className="object-cover hover:scale-105 transition-transform duration-300"
+                      />
                     )}
                     {project.id === 2 && (
                       <Image

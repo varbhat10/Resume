@@ -153,16 +153,16 @@ export default function Home() {
             </p>
           </motion.div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {/* Cat Photo Section */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden sm:col-span-1 lg:col-span-1 xl:col-span-2"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+              <div className="h-80 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <img
                   src="/Resume/images/sophiepose.jpg"
                   alt="Sophie the cat"
@@ -184,9 +184,9 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden sm:col-span-1 lg:col-span-1 xl:col-span-2"
             >
-              <div className="h-64 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+              <div className="h-80 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <img
                   src="/Resume/images/motorcycleresume.jpg"
                   alt="Motorcycle adventures"

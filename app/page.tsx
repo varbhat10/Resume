@@ -263,7 +263,7 @@ export default function Home() {
             >
               <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <Image
-                  src="/Resume/images/PetRX.jpg"
+                  src="/Resume/images/PawRx.jpg"
                   alt="PetRX Pet Medication Safety application screenshot"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"

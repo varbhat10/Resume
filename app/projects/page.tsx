@@ -161,7 +161,7 @@ export default function Projects() {
                     )}
                     {project.id === 3 && (
                       <Image
-                        src="/Resume/images/PetRX.jpg"
+                        src="/Resume/images/PawRx.jpg"
                         alt="PetRX Pet Medication Safety application screenshot"
                         fill
                         className="object-cover hover:scale-105 transition-transform duration-300"

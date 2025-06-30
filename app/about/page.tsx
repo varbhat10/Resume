@@ -51,7 +51,7 @@ export default function About() {
             className="lg:col-span-3"
           >
             <h2 className="text-3xl font-bold mb-4">Varun Bhat</h2>
-            <p className="text-xl text-primary font-medium mb-6">Oregon State University | AWS Certified Cloud Practitioner</p>
+            <p className="text-xl text-primary font-medium mb-6">Oregon State University 2025 Grad | Project w HP | AWS Certified</p>
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>

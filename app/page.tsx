@@ -94,51 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tech Stack Section - NEW */}
-      <section className="py-16 bg-accent/10 dark:bg-site-bg-dark/80">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, margin: "-100px" }}
-            className="text-center mb-10"
-          >
-            <h2 className="text-3xl font-bold mb-4">My Tech Stack</h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Technologies/Services I work with regularly
-            </p>
-          </motion.div>
-          
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-6 justify-items-center">
-            {[
-              { icon: FaPython, name: "Python", color: "text-primary" },
-              { icon: FaReact, name: "React", color: "text-cyan-400" },
-              { icon: FaNodeJs, name: "Node.js", color: "text-green-500" },
-              { icon: FaJava, name: "Java", color: "text-red-500" },
-              { icon: FaHtml5, name: "HTML", color: "text-orange-500" },
-              { icon: FaAws, name: "AWS", color: "text-yellow-500" },
-              { icon: FaDocker, name: "Docker", color: "text-primary" },
-              { icon: SiJenkins, name: "Jenkins", color: "text-red-600" },
-              { icon: SiPostman, name: "Postman", color: "text-orange-600" },
-            ].map((tech, index) => (
-              <motion.div
-                key={tech.name}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: index * 0.05 }}
-                viewport={{ once: true }}
-                className="flex flex-col items-center p-4"
-              >
-                <tech.icon className={`h-10 w-10 ${tech.color}`} />
-                <span className="mt-2 text-sm">{tech.name}</span>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Personal Side Section - NEW */}
+      {/* What I'm Working With */}
       <section className="py-20">
         <div className="container-custom">
           <motion.div
@@ -146,63 +102,135 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="text-center mb-12"
+            className="max-w-4xl mx-auto"
           >
-            <h2 className="section-heading">My Personal Side</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Beyond coding, here's a glimpse into my personal life
-            </p>
+            <h2 className="text-3xl font-bold mb-8">What I'm working with these days</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-primary">Languages & Frameworks</h3>
+                <div className="flex flex-wrap gap-3 mb-6">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaPython className="text-blue-500" />
+                    Python
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaReact className="text-cyan-400" />
+                    React
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaNodeJs className="text-green-500" />
+                    Node.js
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaJava className="text-red-500" />
+                    Java
+                  </span>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-primary">Tools & Services</h3>
+                <div className="flex flex-wrap gap-3">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaAws className="text-orange-400" />
+                    AWS
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <FaDocker className="text-blue-500" />
+                    Docker
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <SiJenkins className="text-red-600" />
+                    Jenkins
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <SiPostman className="text-orange-600" />
+                    Postman
+                  </span>
+                </div>
+              </div>
+            </div>
           </motion.div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {/* Cat Photo Section */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden sm:col-span-1 lg:col-span-1 xl:col-span-2"
-            >
-              <div className="h-80 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
-                <img
-                  src="/Resume/images/sophiepose.jpg"
-                  alt="Sophie the cat"
-                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ objectPosition: 'center 40%' }}
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">My Cat</h3>
-                <p className="text-gray-600 dark:text-gray-400">
-                  This is my homie Sophie. She keeps me company during long coding sessions, and of course, never forgets to beg for food!
-                </p>
-              </div>
-            </motion.div>
+        </div>
+      </section>
+
+      {/* Personal Stuff */}
+      <section className="py-20 bg-gray-50 dark:bg-gray-900/50">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true, margin: "-100px" }}
+            className="max-w-6xl mx-auto"
+          >
+            <h2 className="text-3xl font-bold mb-4">Life outside of code</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 mb-12">
+              When I'm not building things, you'll find me doing other things I love.
+            </p>
             
-            {/* Hobby/Interest Section */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden sm:col-span-1 lg:col-span-1 xl:col-span-2"
-            >
-              <div className="h-80 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
-                <img
-                  src="/Resume/images/motorcycleresume.jpg"
-                  alt="Motorcycle adventures"
-                  className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  style={{ objectPosition: 'center 45%' }}
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">When I'm Not Coding</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+              {/* Cat section */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                className="lg:col-span-1"
+              >
+                <div className="relative h-80 mb-4 rounded-xl overflow-hidden">
+                  <img
+                    src="/Resume/images/sophiepose.jpg"
+                    alt="Sophie the cat"
+                    className="w-full h-full object-cover"
+                    style={{ objectPosition: 'center 40%' }}
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Meet Sophie</h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  I enjoy travelling (Most Recently Japan) and staying active. Motorcycles, working out, tennis, hiking, and spicy food
+                  My coding companion. She's an expert at stepping on keyboards and reminding me to take breaks (usually for food).
                 </p>
-              </div>
-            </motion.div>
-          </div>
+              </motion.div>
+              
+              {/* Adventures section */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="lg:col-span-2"
+              >
+                <div className="relative h-80 mb-4 rounded-xl overflow-hidden">
+                  <img
+                    src="/Resume/images/motorcycleresume.jpg"
+                    alt="Motorcycle adventures"
+                    className="w-full h-full object-cover"
+                    style={{ objectPosition: 'center 45%' }}
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Adventures & Staying Active</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                  I love exploring new places and staying active. Recently got back from Japan (incredible trip!). 
+                  When I'm not traveling, you can find me:
+                </p>
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <span className="font-semibold">🏍️</span> Riding motorcycles
+                    <br />
+                    <span className="font-semibold">🎾</span> Playing tennis
+                    <br />
+                    <span className="font-semibold">💪</span> Working out
+                  </div>
+                  <div>
+                    <span className="font-semibold">🥾</span> Hiking trails
+                    <br />
+                    <span className="font-semibold">🌶️</span> Trying spicy foods
+                    <br />
+                    <span className="font-semibold">📚</span> Learning new things
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -216,9 +244,9 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-center mb-12"
           >
-            <h2 className="section-heading">Featured Projects</h2>
+            <h2 className="text-3xl font-bold mb-4">Some things I've built</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Check out some of my recent work and coding projects
+              A few projects I'm particularly excited about
             </p>
           </motion.div>
           
@@ -322,107 +350,95 @@ export default function Home() {
         </div>
       </section>
       
-      {/* Experience Preview - NEW */}
-      <section className="py-20 bg-accent/10 dark:bg-site-bg-dark/80">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, margin: "-100px" }}
-            className="text-center mb-12"
-          >
-            <h2 className="section-heading">Experience Highlights</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              My professional journey in software development and beyond
-            </p>
-          </motion.div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="card p-6"
-            >
-              <h3 className="text-xl font-bold mb-2 text-primary">BlackBerry/Cylance</h3>
-              <p className="text-sm text-gray-500 mb-3">Software Developer Intern | Dec 2022 - Apr 2023</p>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Wrote test plans and automated integration tests for RESTful APIs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Designed and tested RESTful APIs with Postman</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Managed AWS services and conducted daily tests in Jenkins</span>
-                </li>
-              </ul>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="card p-6"
-            >
-              <h3 className="text-xl font-bold mb-2 text-primary">Oregon Health & Science University</h3>
-              <p className="text-sm text-gray-500 mb-3">Research Assistant | Mar 2021 - Sep 2021</p>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Developed websites using HTML, CSS, and JavaScript</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Supported pathology research in a primate lab</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Created web interfaces for research data visualization</span>
-                </li>
-              </ul>
-            </motion.div>
-          </div>
-          
-          <div className="mt-10 text-center">
-             <Link href="/about" className="btn border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800">
-              More About Me
-            </Link>
-          </div>
-        </div>
-      </section> 
-      
-      {/* Community Impact - NEW */}
+      {/* Work Experience */}
       <section className="py-20">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="bg-gradient-to-r from-primary/10 to-accent/20 p-8 rounded-xl"
+            viewport={{ once: true, margin: "-100px" }}
+            className="max-w-4xl mx-auto"
           >
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4">Community Impact</h2>
-              <p className="text-gray-700 dark:text-gray-300">Making a difference beyond technology</p>
+            <h2 className="text-3xl font-bold mb-4">Work experience</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-400 mb-12">
+              Some places I've worked and things I've learned along the way.
+            </p>
+            
+            <div className="space-y-12">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                className="relative pl-8 border-l-2 border-gray-200 dark:border-gray-700"
+              >
+                <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-xl font-bold text-primary">BlackBerry/Cylance</h3>
+                  <span className="text-sm text-gray-500 md:text-right">Dec 2022 - Apr 2023</span>
+                </div>
+                <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Software Developer Intern</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-3">
+                  Worked on testing and API development for cybersecurity products. Got hands-on experience with Python, AWS, and CI/CD pipelines.
+                </p>
+                <div className="text-sm text-gray-600 dark:text-gray-400">
+                  <span className="font-medium">Key work:</span> RESTful API testing, automated integration tests, AWS services (EC2, S3, DynamoDB), Jenkins CI/CD
+                </div>
+              </motion.div>
+              
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="relative pl-8 border-l-2 border-gray-200 dark:border-gray-700"
+              >
+                <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-xl font-bold text-primary">Oregon Health & Science University</h3>
+                  <span className="text-sm text-gray-500 md:text-right">Mar 2021 - Sep 2021</span>
+                </div>
+                <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Research Assistant</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-3">
+                  Built web tools for pathology researchers. First real experience creating applications that others actually used.
+                </p>
+                <div className="text-sm text-gray-600 dark:text-gray-400">
+                  <span className="font-medium">Key work:</span> Web development (HTML, CSS, JavaScript), data visualization interfaces, research support tools
+                </div>
+              </motion.div>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
-              <div className="bg-white dark:bg-site-bg-dark p-6 rounded-lg shadow-md max-w-lg">
-                <h3 className="text-xl font-bold mb-3 text-primary">JoyBox</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Co-founded an organization that delivers gifts and personalized letters to cancer patients at Doernbecher Pediatric Hospital.
-                </p>
-                <p className="italic text-gray-600 dark:text-gray-400">
-                  Working with JoyBox has been one of the most rewarding experiences I have had.
-                </p>
-              </div>
+            <div className="mt-12 text-center">
+              <Link href="/about" className="inline-flex items-center text-primary hover:underline font-medium">
+                See full work history →
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+      </section> 
+      
+      {/* Something I'm proud of */}
+      <section className="py-20 bg-primary/5 dark:bg-gray-900/30">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <h2 className="text-3xl font-bold mb-6">Something I'm really proud of</h2>
+            <div className="max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4 text-primary">JoyBox</h3>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+                I co-founded an organization that delivers personalized gifts and letters to cancer patients 
+                at Doernbecher Pediatric Hospital. It started as a small idea to brighten someone's day 
+                and has grown into something that brings joy to families during their toughest times.
+              </p>
+              <p className="text-gray-600 dark:text-gray-400 italic">
+                This has honestly been one of the most meaningful things I've been part of.
+              </p>
             </div>
           </motion.div>
         </div>

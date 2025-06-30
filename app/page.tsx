@@ -264,13 +264,13 @@ export default function Home() {
               <div className="aspect-video bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
                 <Image
                   src="/Resume/images/PawRx.jpg"
-                  alt="PetRX Pet Medication Safety application screenshot"
+                  alt="PawRx Pet Medication Safety application screenshot"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">PetRX - Pet Medication Safety</h3>
+                <h3 className="text-xl font-bold mb-2">PawRx - Pet Medication Safety</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   Comprehensive web application for pet medication tracking, drug interaction checking, and AI-powered safety analysis.
                 </p>

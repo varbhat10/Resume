@@ -50,13 +50,13 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'PetRX - Pet Medication Safety Monitor',
+    title: 'PawRx - Pet Medication Safety Monitor',
     description: 'Comprehensive pet medication safety monitoring web application with AI-powered drug interaction analysis.',
     longDescription: 'Developed a full-stack web application to help pet owners and veterinarians track medications, check for dangerous drug interactions, and ensure pet safety through intelligent monitoring. Features include pet profile management, real-time drug interaction checking, AI-powered safety analysis using OpenAI GPT, PDF report generation, and comprehensive dashboards. Built with React frontend, Node.js/Express backend, MongoDB database, and Python FastAPI for ML services.',
     tags: ['React', 'Node.js', 'MongoDB', 'Python', 'AI/ML', 'OpenAI GPT', 'FastAPI', 'Docker'],
     image: '/images/project-placeholder.svg',
     github: null,
-    demo: null,
+    demo: 'https://varbhat10.github.io/PawRx/',
     featured: true,
     icons: [FaReact, FaNodeJs, FaPython]
   },
@@ -162,7 +162,7 @@ export default function Projects() {
                     {project.id === 3 && (
                       <Image
                         src="/Resume/images/PawRx.jpg"
-                        alt="PetRX Pet Medication Safety application screenshot"
+                        alt="PawRx Pet Medication Safety application screenshot"
                         fill
                         className="object-cover hover:scale-105 transition-transform duration-300"
                       />

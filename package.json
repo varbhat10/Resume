@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && type nul > out/.nojekyll",
+    "build": "next build && echo. > out/.nojekyll",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && type nul > out/.nojekyll && git add -f out/images && git commit -m \"Update build with images\" && git push origin main"
+    "deploy": "next build && echo. > out/.nojekyll && git add -f out/images && git commit -m \"Update build with images\" && git push origin main"
   },
   "dependencies": {
     "@types/node": "^20.11.16",

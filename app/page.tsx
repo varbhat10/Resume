@@ -20,11 +20,11 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
-                <span className="block">Hey there! I'm</span>
+                <span className="block">Hey! I'm</span>
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600 dark:text-gray-300">
-                2025 CS Graduate • AWS Certified
+                B.S. Computer Science, Oregon State University 2025 • AWS Certified
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700 dark:text-gray-300">
                 I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.

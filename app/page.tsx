@@ -98,8 +98,8 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-6">A bit about me</h2>
             <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
-              Beyond the code and coursework, here's what makes me tick. I'm someone who finds joy in solving problems, 
-              exploring new places, and yes, hanging out with my cat Sophie who somehow always knows when I need a break.
+              Beyond my professional side, here are some examples of what I like to do. I love to travel (recently went to Japan), 
+              go on hikes, ride motorcycles, and ofc, hang out with my cat Sophie who somehow always knows when I need a break.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="relative">
@@ -289,12 +289,12 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety</h3>
                 <p className="text-gray-600 mb-4">
                   Built this after realizing how dangerous drug interactions can be for pets. 
-                  It combines my love for animals with practical AI to help pet owners keep their furry friends safe.
+                  It combines my love for animals with practical AI to help pet owners keep their paw friends safe.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
                   <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Node.js</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">AI Safety</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">AI</span>
                   <span className="text-xs px-3 py-1 bg-pink-100 text-pink-800 rounded-full">Pet Care</span>
                 </div>
                 <a 
@@ -329,8 +329,8 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>
                 <p className="text-gray-600 mb-4">
-                  Started as a joke about identifying cat breeds, but turned into a solid machine learning project. 
-                  Sophie wasn't impressed with her classification results, but the CNN model turned out pretty decent.
+                  Started as a joke in the vet office about identifying cat breeds, but turned into a solid machine learning project using CNNs. 
+                  Sophie (my cat) is pretty stoked about the results.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>

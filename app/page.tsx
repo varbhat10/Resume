@@ -30,17 +30,18 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
-                  href="mailto:bhatv@oregonstate.edu" 
-                  className="btn btn-primary"
-                >
-                  Let's chat
-                </a>
-                <a 
                   href="#projects" 
-                  className="btn border border-gray-300 hover:bg-gray-100"
+                  className="btn btn-primary"
                 >
                   See my work
                 </a>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg mb-8">
+                <h3 className="font-semibold mb-2">Get in touch:</h3>
+                <div className="space-y-1">
+                  <a href="mailto:varbhat10@gmail.com" className="block text-primary hover:underline">varbhat10@gmail.com</a>
+                  <a href="mailto:bhatv@oregonstate.edu" className="block text-primary hover:underline">bhatv@oregonstate.edu</a>
+                </div>
               </div>
               <div className="flex space-x-4">
                 <a 
@@ -96,49 +97,59 @@ export default function Home() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-3xl font-bold mb-6">A bit about me</h2>
+            <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+              Beyond the code and coursework, here's what makes me tick. I'm someone who finds joy in solving problems, 
+              exploring new places, and yes, hanging out with my cat Sophie who somehow always knows when I need a break.
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="relative">
-                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                   <Image
-                     src="/Resume/images/hikingrest.jpg"
-                     alt="Varun hiking"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
+                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src="/Resume/images/hikingrest.jpg"
+                    alt="Varun hiking"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
                   Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
-                  the problem-solving keeps me hooked.
+                  the problem-solving aspect keeps me hooked. Whether it's debugging code at 2 AM or 
+                  figuring out algorithms, I genuinely love what I do.
                 </p>
               </div>
               <div className="relative">
-                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                   <Image
-                     src="/Resume/images/sophiepose.jpg"
-                     alt="Sophie the cat"
-                     fill
-                     className="object-cover"
-                     style={{ objectPosition: 'center 40%' }}
-                   />
-                 </div>
+                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src="/Resume/images/sophiepose.jpg"
+                    alt="Sophie the cat"
+                    fill
+                    className="object-cover"
+                    style={{ objectPosition: 'center 40%' }}
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Meet Sophie</h3>
                 <p className="text-gray-600">
                   This is Sophie, my coding companion and chief keyboard inspector. 
-                  She's excellent at reminding me to take breaks.
+                  She's an expert at stepping on keyboards at the worst possible moments and 
+                  reminding me that there's life beyond the screen. Best debugging partner ever.
                 </p>
               </div>
               <div className="relative">
-                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                   <Image
-                     src="/Resume/images/motorcycleresume.jpg"
-                     alt="Motorcycle adventures"
-                     fill
-                     className="object-cover"
-                     style={{ objectPosition: 'center 45%' }}
-                   />
-                 </div>
+                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src="/Resume/images/motorcycleresume.jpg"
+                    alt="Motorcycle adventures"
+                    fill
+                    className="object-cover"
+                    style={{ objectPosition: 'center 45%' }}
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Life Outside Code</h3>
                 <p className="text-gray-600">
                   When I'm not coding, I'm probably riding my motorcycle, playing tennis, 
-                  or trying to find the spiciest food in town.
+                  or on a quest to find the spiciest food in town. Recently got back from Japan 
+                  (incredible trip!) and always planning the next adventure.
                 </p>
               </div>
             </div>
@@ -231,19 +242,20 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="relative">
-                                 <div className="aspect-video rounded-lg overflow-hidden">
-                   <Image
-                     src="/Resume/images/chatbotxex.jpg"
-                     alt="AI Chatbot project"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/Resume/images/chatbotxex.jpg"
+                    alt="AI Chatbot project"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">AI Chatbot with HP</h3>
                 <p className="text-gray-600 mb-4">
-                  My senior project - building an AI chatbot in partnership with Hewlett-Packard. 
+                  Built an AI chatbot in partnership with Hewlett-Packard for Oregon State students and faculty. 
+                  This was a great learning experience for me and I held a leadership role. 
                   It's been incredible working with industry professionals and learning how real-world AI development works.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -264,14 +276,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="lg:order-2 relative">
-                                 <div className="aspect-video rounded-lg overflow-hidden">
-                   <Image
-                     src="/Resume/images/PawRx.jpg"
-                     alt="PawRx Pet Medication Safety"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/Resume/images/PawRx.jpg"
+                    alt="PawRx Pet Medication Safety"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
               <div className="lg:order-1">
                 <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety</h3>
@@ -305,14 +317,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="relative">
-                                 <div className="aspect-video rounded-lg overflow-hidden">
-                   <Image
-                     src="/Resume/images/CatShazam.jpg"
-                     alt="Shazam for Cats"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/Resume/images/CatShazam.jpg"
+                    alt="Shazam for Cats"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>
@@ -417,29 +429,29 @@ export default function Home() {
                   </p>
                 </div>
                 
-                                 <div className="relative pl-6 border-l-2 border-gray-200">
-                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
-                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                     <h4 className="text-lg font-semibold text-gray-700">Target</h4>
-                     <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
-                   </div>
-                   <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
-                   <p className="text-gray-600 text-sm">
-                     Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
-                   </p>
-                 </div>
-                 
-                 <div className="relative pl-6 border-l-2 border-gray-200">
-                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
-                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                     <h4 className="text-lg font-semibold text-gray-700">Taco Bell</h4>
-                     <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
-                   </div>
-                   <p className="text-gray-600 font-medium mb-2">Service Champion</p>
-                   <p className="text-gray-600 text-sm">
-                     Communicated and took orders from customers in a high stress fast pace environment.
-                   </p>
-                 </div>
+                <div className="relative pl-6 border-l-2 border-gray-200">
+                  <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h4 className="text-lg font-semibold text-gray-700">Target</h4>
+                    <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
+                  </div>
+                  <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
+                  <p className="text-gray-600 text-sm">
+                    Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
+                  </p>
+                </div>
+                
+                <div className="relative pl-6 border-l-2 border-gray-200">
+                  <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h4 className="text-lg font-semibold text-gray-700">Taco Bell</h4>
+                    <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
+                  </div>
+                  <p className="text-gray-600 font-medium mb-2">Service Champion</p>
+                  <p className="text-gray-600 text-sm">
+                    Communicated and took orders from customers in a high stress fast pace environment.
+                  </p>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -466,7 +478,7 @@ export default function Home() {
               </p>
               <p className="text-gray-600 italic">
                 Honestly, this has been one of the most meaningful things I've ever been part of. 
-                Sometimes the best projects aren't the ones with the most code.
+                Nothing is better than creating an impact and seeing it with your own eyes.
               </p>
             </div>
           </motion.div>
@@ -485,8 +497,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-8">Want to work together?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              I'm graduating in 2025 and looking for opportunities where I can actually make a difference. 
-              Whether it's a full-time role, internship, or just want to chat about tech - I'm all ears.
+              Looking for opportunities where I can actually make a difference and learn more.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto mb-8">
@@ -495,12 +506,20 @@ export default function Home() {
                   <FaEnvelope className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-2">Email</h3>
-                <a 
-                  href="mailto:bhatv@oregonstate.edu" 
-                  className="text-primary hover:underline"
-                >
-                  bhatv@oregonstate.edu
-                </a>
+                <div className="space-y-1">
+                  <a 
+                    href="mailto:varbhat10@gmail.com" 
+                    className="block text-primary hover:underline"
+                  >
+                    varbhat10@gmail.com
+                  </a>
+                  <a 
+                    href="mailto:bhatv@oregonstate.edu" 
+                    className="block text-primary hover:underline"
+                  >
+                    bhatv@oregonstate.edu
+                  </a>
+                </div>
               </div>
               
               <div className="text-center">
@@ -542,10 +561,10 @@ export default function Home() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 max-w-lg mx-auto">
               <h3 className="font-semibold mb-3">What I'm looking for</h3>
               <ul className="text-gray-600 space-y-1">
-                <li>• Software Engineering roles</li>
-                <li>• Cloud/DevOps positions</li>
+                <li>• Entry Level Software Engineering/Development roles</li>
+                <li>• Cloud/DevOps/QA positions</li>
                 <li>• Interesting projects to collaborate on</li>
-                <li>• Opportunities to actually make an impact</li>
+                <li>• Opportunities to actually make an impact and learn more</li>
               </ul>
             </div>
           </motion.div>

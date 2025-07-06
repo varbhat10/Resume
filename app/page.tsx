@@ -20,7 +20,6 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
-                <span className="block">Hey! I'm</span>
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600 dark:text-gray-300">

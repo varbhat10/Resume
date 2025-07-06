@@ -4,19 +4,13 @@
 
 @layer base {
   html {
-    @apply bg-site-bg-light dark:bg-site-bg-dark;
+    @apply bg-site-bg-light;
   }
   
   :root {
-    --background: 0 0% 96%;  /* Light silver */
-    --foreground: 0 0% 21%;  /* Dark charcoal */
-    --primary: 42 65% 52%;   /* Orangey gold */
-  }
-
-  .dark {
-    --background: 0 0% 12%;  /* Dark silver/gray */
-    --foreground: 0 0% 96%;  /* Light silver */
-    --primary: 42 65% 52%;   /* Same gold in dark mode */
+    --background: 0 0% 96%;  /* Light background */
+    --foreground: 0 0% 21%;  /* Dark text */
+    --primary: 17 89% 44%;   /* Oregon State Orange #DC4405 */
   }
 
   body {
@@ -42,10 +36,10 @@
   }
 
   .card {
-    @apply bg-white dark:bg-site-bg-dark rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow;
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow;
   }
   
   .text-gradient {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-amber-500;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-600;
   }
 } 

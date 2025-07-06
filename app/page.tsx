@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center py-20">
-        <div className="absolute inset-0 z-0 bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-800 dark:to-gray-900"></div>
+        <div className="absolute inset-0 z-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
         <div className="container-custom z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -22,10 +22,10 @@ export default function Home() {
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
-              <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600 dark:text-gray-300">
+              <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600">
                 B.S. Computer Science, Oregon State University 2025 • AWS Certified
               </h2>
-              <p className="text-lg mb-8 max-w-lg text-gray-700 dark:text-gray-300">
+              <p className="text-lg mb-8 max-w-lg text-gray-700">
                 I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
@@ -37,7 +37,7 @@ export default function Home() {
                 </a>
                 <a 
                   href="#projects" 
-                  className="btn border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800"
+                  className="btn border border-gray-300 hover:bg-gray-100"
                 >
                   See my work
                 </a>
@@ -47,7 +47,7 @@ export default function Home() {
                   href="https://github.com/varbhat10/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors"
                   aria-label="GitHub Profile"
                 >
                   <FaGithub className="h-6 w-6" />
@@ -56,7 +56,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/varun-bhat-osu/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors"
                   aria-label="LinkedIn Profile"
                 >
                   <FaLinkedin className="h-6 w-6" />
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* About Me - More Personal */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-900/50">
+      <section className="py-20 bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -106,7 +106,7 @@ export default function Home() {
                      className="object-cover"
                    />
                  </div>
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600">
                   Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
                   the problem-solving keeps me hooked.
                 </p>
@@ -121,7 +121,7 @@ export default function Home() {
                      style={{ objectPosition: 'center 40%' }}
                    />
                  </div>
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600">
                   This is Sophie, my coding companion and chief keyboard inspector. 
                   She's excellent at reminding me to take breaks.
                 </p>
@@ -136,7 +136,7 @@ export default function Home() {
                      style={{ objectPosition: 'center 45%' }}
                    />
                  </div>
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600">
                   When I'm not coding, I'm probably riding my motorcycle, playing tennis, 
                   or trying to find the spiciest food in town.
                 </p>
@@ -161,19 +161,19 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-primary">Languages & Frameworks</h3>
                 <div className="flex flex-wrap gap-3 mb-6">
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaPython className="text-blue-500" />
                     Python
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaReact className="text-cyan-400" />
                     React
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaNodeJs className="text-green-500" />
                     Node.js
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaJava className="text-red-500" />
                     Java
                   </span>
@@ -182,19 +182,19 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-primary">Cloud & Tools</h3>
                 <div className="flex flex-wrap gap-3">
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaAws className="text-orange-400" />
                     AWS Certified
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <FaDocker className="text-blue-500" />
                     Docker
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <SiJenkins className="text-red-600" />
                     Jenkins
                   </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <SiPostman className="text-orange-600" />
                     Postman
                   </span>
@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900/50">
+      <section id="projects" className="py-20 bg-gray-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -216,7 +216,7 @@ export default function Home() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold mb-4">Some cool stuff I've built</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Here are a few projects I'm actually excited about (and some that employers seem to like too)
             </p>
           </motion.div>
@@ -242,15 +242,15 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">AI Chatbot with HP</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                <p className="text-gray-600 mb-4">
                   My senior project - building an AI chatbot in partnership with Hewlett-Packard. 
                   It's been incredible working with industry professionals and learning how real-world AI development works.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Python</span>
-                  <span className="text-xs px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">AI/ML</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">NLP</span>
-                  <span className="text-xs px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Industry Partnership</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">AI/ML</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">NLP</span>
+                  <span className="text-xs px-3 py-1 bg-gray-100 text-gray-800 rounded-full">Industry Partnership</span>
                 </div>
               </div>
             </motion.div>
@@ -275,15 +275,15 @@ export default function Home() {
               </div>
               <div className="lg:order-1">
                 <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                <p className="text-gray-600 mb-4">
                   Built this after realizing how dangerous drug interactions can be for pets. 
                   It combines my love for animals with practical AI to help pet owners keep their furry friends safe.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 rounded-full">React</span>
-                  <span className="text-xs px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">Node.js</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">AI Safety</span>
-                  <span className="text-xs px-3 py-1 bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 rounded-full">Pet Care</span>
+                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Node.js</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">AI Safety</span>
+                  <span className="text-xs px-3 py-1 bg-pink-100 text-pink-800 rounded-full">Pet Care</span>
                 </div>
                 <a 
                   href="https://varbhat10.github.io/PawRx/" 
@@ -316,15 +316,15 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                <p className="text-gray-600 mb-4">
                   Started as a joke about identifying cat breeds, but turned into a solid machine learning project. 
                   Sophie wasn't impressed with her classification results, but the CNN model turned out pretty decent.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Python</span>
-                  <span className="text-xs px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">TensorFlow</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">CNN</span>
-                  <span className="text-xs px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full">Computer Vision</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">TensorFlow</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">CNN</span>
+                  <span className="text-xs px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">Computer Vision</span>
                 </div>
               </div>
             </motion.div>
@@ -350,49 +350,49 @@ export default function Home() {
                 💻 Software & Tech Experience
               </h3>
               <div className="space-y-12">
-                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 dark:bg-primary/10 rounded-r-lg p-6">
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-bold text-primary">BlackBerry/Cylance</h4>
                     <span className="text-sm text-gray-500 font-medium">Dec 2022 - Apr 2023</span>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Software Developer Intern</p>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  <p className="text-gray-600 font-medium mb-4">Software Developer Intern</p>
+                  <p className="text-gray-700 mb-4">
                     My first real taste of enterprise software development. Worked on API testing and automation 
                     in the cybersecurity space - learned a ton about Python, AWS, and how to write tests that actually matter.
                   </p>
-                  <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                  <div className="text-sm text-gray-600 mb-4">
                     <span className="font-medium">Key achievements:</span> Built automated testing frameworks, worked with RESTful APIs, 
                     managed AWS services (EC2, S3, DynamoDB), and set up CI/CD pipelines with Jenkins.
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Python</span>
-                    <span className="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">AWS</span>
-                    <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 rounded-full">Jenkins</span>
-                    <span className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full">REST APIs</span>
+                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">AWS</span>
+                    <span className="text-xs px-2 py-1 bg-red-100 text-red-800 rounded-full">Jenkins</span>
+                    <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">REST APIs</span>
                   </div>
                 </div>
                 
-                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 dark:bg-primary/10 rounded-r-lg p-6">
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-bold text-primary">Oregon Health & Science University</h4>
                     <span className="text-sm text-gray-500 font-medium">Mar 2021 - Sep 2021</span>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Research Assistant</p>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  <p className="text-gray-600 font-medium mb-4">Research Assistant</p>
+                  <p className="text-gray-700 mb-4">
                     Built web tools for pathology researchers working with primate studies. 
                     My first experience creating applications that real people used for important work.
                   </p>
-                  <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                  <div className="text-sm text-gray-600 mb-4">
                     <span className="font-medium">Key achievements:</span> Web development with HTML, CSS, and JavaScript, 
                     created data visualization interfaces for research data.
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">HTML/CSS</span>
-                    <span className="text-xs px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full">JavaScript</span>
-                    <span className="text-xs px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">Data Visualization</span>
-                    <span className="text-xs px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">Research</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">HTML/CSS</span>
+                    <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Data Visualization</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Research</span>
                   </div>
                 </div>
               </div>
@@ -400,43 +400,43 @@ export default function Home() {
 
             {/* Other Experience - Supporting */}
             <div>
-              <h3 className="text-lg font-medium mb-4 text-gray-600 dark:text-gray-400">
+              <h3 className="text-lg font-medium mb-4 text-gray-600">
                 🏢 Other Professional Experience
               </h3>
               <div className="space-y-8">
-                <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                <div className="relative pl-6 border-l-2 border-gray-200">
                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                    <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Viking Veterinary Care</h4>
+                    <h4 className="text-lg font-semibold text-gray-700">Viking Veterinary Care</h4>
                     <span className="text-sm text-gray-500">Jun 2024 - Sep 2024</span>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Technician Assistant</p>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  <p className="text-gray-600 font-medium mb-2">Technician Assistant</p>
+                  <p className="text-gray-600 text-sm">
                     Managed treatments for vaccine administration, blood tests, X-rays, and animal primary care. 
                     Developed strong communication skills for sensitive situations.
                   </p>
                 </div>
                 
-                                 <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                                 <div className="relative pl-6 border-l-2 border-gray-200">
                    <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                     <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Target</h4>
+                     <h4 className="text-lg font-semibold text-gray-700">Target</h4>
                      <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
                    </div>
-                   <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Team Specialist</p>
-                   <p className="text-gray-600 dark:text-gray-400 text-sm">
+                   <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
+                   <p className="text-gray-600 text-sm">
                      Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
                    </p>
                  </div>
                  
-                 <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                 <div className="relative pl-6 border-l-2 border-gray-200">
                    <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                     <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Taco Bell</h4>
+                     <h4 className="text-lg font-semibold text-gray-700">Taco Bell</h4>
                      <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
                    </div>
-                   <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Service Champion</p>
-                   <p className="text-gray-600 dark:text-gray-400 text-sm">
+                   <p className="text-gray-600 font-medium mb-2">Service Champion</p>
+                   <p className="text-gray-600 text-sm">
                      Communicated and took orders from customers in a high stress fast pace environment.
                    </p>
                  </div>
@@ -447,7 +447,7 @@ export default function Home() {
       </section>
 
       {/* Something I'm Proud Of */}
-      <section className="py-20 bg-primary/5 dark:bg-gray-900/30">
+      <section className="py-20 bg-primary/5">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -457,14 +457,14 @@ export default function Home() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-3xl font-bold mb-6">Something that actually matters to me</h2>
-            <div className="max-w-2xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
+            <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-2xl font-bold mb-4 text-primary">JoyBox</h3>
-              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+              <p className="text-lg text-gray-700 mb-4">
                 I co-founded this organization that delivers personalized gifts and letters to kids fighting cancer 
                 at Doernbecher Pediatric Hospital. It started small - just wanting to brighten someone's day during 
                 a really tough time.
               </p>
-              <p className="text-gray-600 dark:text-gray-400 italic">
+              <p className="text-gray-600 italic">
                 Honestly, this has been one of the most meaningful things I've ever been part of. 
                 Sometimes the best projects aren't the ones with the most code.
               </p>
@@ -484,7 +484,7 @@ export default function Home() {
             className="text-center"
           >
             <h2 className="text-3xl font-bold mb-8">Want to work together?</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               I'm graduating in 2025 and looking for opportunities where I can actually make a difference. 
               Whether it's a full-time role, internship, or just want to chat about tech - I'm all ears.
             </p>
@@ -508,7 +508,7 @@ export default function Home() {
                   <FaPhone className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-2">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-400">(503) 577-4228</p>
+                <p className="text-gray-600">(503) 577-4228</p>
               </div>
               
               <div className="text-center">
@@ -516,7 +516,7 @@ export default function Home() {
                   <FaMapMarkerAlt className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-2">Location</h3>
-                <p className="text-gray-600 dark:text-gray-400">Portland, Oregon</p>
+                <p className="text-gray-600">Portland, Oregon</p>
               </div>
             </div>
             
@@ -525,7 +525,7 @@ export default function Home() {
                 href="https://github.com/varbhat10/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-full hover:bg-primary/10 transition-colors"
+                className="bg-gray-100 p-3 rounded-full hover:bg-primary/10 transition-colors"
               >
                 <FaGithub className="h-6 w-6" />
               </a>
@@ -533,15 +533,15 @@ export default function Home() {
                 href="https://www.linkedin.com/in/varun-bhat-osu/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-full hover:bg-primary/10 transition-colors"
+                className="bg-gray-100 p-3 rounded-full hover:bg-primary/10 transition-colors"
               >
                 <FaLinkedin className="h-6 w-6" />
               </a>
             </div>
             
-            <div className="bg-gray-50 dark:bg-gray-800/50 p-6 rounded-lg border border-gray-200 dark:border-gray-700 max-w-lg mx-auto">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 max-w-lg mx-auto">
               <h3 className="font-semibold mb-3">What I'm looking for</h3>
-              <ul className="text-gray-600 dark:text-gray-400 space-y-1">
+              <ul className="text-gray-600 space-y-1">
                 <li>• Software Engineering roles</li>
                 <li>• Cloud/DevOps positions</li>
                 <li>• Interesting projects to collaborate on</li>

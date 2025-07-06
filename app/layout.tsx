@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-site-bg-light dark:bg-site-bg-dark text-secondary dark:text-gray-100 transition-colors duration-300">
+      <body className="bg-site-bg-light text-secondary transition-colors duration-300">
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-grow">

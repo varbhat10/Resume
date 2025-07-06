@@ -8,14 +8,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-100 dark:bg-gray-800 py-8">
+    <footer className="bg-gray-100 py-8">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-xl font-bold text-primary">
               Varun Bhat CS Resume
             </Link>
-            <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            <p className="mt-2 text-sm text-gray-600">
               Computer Science 2025 Graduate @ Oregon State University
             </p>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                 href="https://github.com/varbhat10/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                className="text-gray-600 hover:text-primary transition-colors"
                 aria-label="GitHub Profile"
               >
                 <FaGithub className="h-6 w-6" />
@@ -54,14 +54,14 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/varun-bhat-osu/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                className="text-gray-600 hover:text-primary transition-colors"
                 aria-label="LinkedIn Profile"
               >
                 <FaLinkedin className="h-6 w-6" />
               </a>
               <a 
                 href="mailto:bhatv@oregonstate.edu" 
-                className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                className="text-gray-600 hover:text-primary transition-colors"
                 aria-label="Email Contact"
               >
                 <FaEnvelope className="h-6 w-6" />
@@ -70,8 +70,8 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700">
-          <p className="text-center text-sm text-gray-600 dark:text-gray-400">
+        <div className="mt-8 pt-4 border-t border-gray-200">
+          <p className="text-center text-sm text-gray-600">
             © {currentYear} Varun Bhat CS Portfolio. All rights reserved.
           </p>
         </div>

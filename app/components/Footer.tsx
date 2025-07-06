@@ -1,79 +1,67 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-100 py-8">
+    <footer className="bg-gray-100 py-12">
       <div className="container-custom">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <Link href="/" className="text-xl font-bold text-primary">
-              Varun Bhat CS Resume
-            </Link>
-            <p className="mt-2 text-sm text-gray-600">
-              Computer Science 2025 Graduate @ Oregon State University
+        <div className="flex flex-col items-center text-center space-y-6">
+          {/* Main brand */}
+          <div>
+            <h2 className="text-2xl font-bold text-primary mb-2">Varun Bhat</h2>
+            <p className="text-gray-600">Computer Science Graduate • Oregon State University 2025</p>
+          </div>
+          
+          {/* Contact links */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+            <a 
+              href="mailto:varbhat10@gmail.com"
+              className="text-gray-600 hover:text-primary transition-colors flex items-center gap-2"
+            >
+              <FaEnvelope className="h-4 w-4" />
+              varbhat10@gmail.com
+            </a>
+            <a 
+              href="mailto:bhatv@oregonstate.edu"
+              className="text-gray-600 hover:text-primary transition-colors flex items-center gap-2"
+            >
+              <FaEnvelope className="h-4 w-4" />
+              bhatv@oregonstate.edu
+            </a>
+          </div>
+          
+          {/* Social links */}
+          <div className="flex space-x-6">
+            <a 
+              href="https://github.com/varbhat10/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+              aria-label="GitHub Profile"
+            >
+              <FaGithub className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/varun-bhat-osu/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+              aria-label="LinkedIn Profile"
+            >
+              <FaLinkedin className="h-6 w-6" />
+            </a>
+          </div>
+          
+          {/* Copyright */}
+          <div className="pt-6 border-t border-gray-200 w-full">
+            <p className="text-center text-sm text-gray-500">
+              © {currentYear} Varun Bhat. Built with Next.js and hosted on GitHub Pages.
             </p>
           </div>
-          
-          <div className="flex flex-col mb-4 md:mb-0">
-            <h3 className="font-semibold mb-2"></h3>
-            <div className="grid grid-cols-4 gap-x-5 gap-y-4">
-              <Link href="/" className="text-sm hover:text-primary transition-colors">
-                Home
-              </Link>
-              <Link href="/about" className="text-sm hover:text-primary transition-colors">
-                About
-              </Link>
-              <Link href="/skills" className="text-sm hover:text-primary transition-colors">
-                Skills
-              </Link>
-              <Link href="/projects" className="text-sm hover:text-primary transition-colors">
-                Projects
-              </Link>
-            </div>
-          </div>
-          
-          <div className="flex flex-col">
-            <h3 className="font-semibold mb-2 text-center md:text-right">Connect With Me</h3>
-            <div className="flex space-x-4">
-              <a 
-                href="https://github.com/varbhat10/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-                aria-label="GitHub Profile"
-              >
-                <FaGithub className="h-6 w-6" />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/varun-bhat-osu/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-primary transition-colors"
-                aria-label="LinkedIn Profile"
-              >
-                <FaLinkedin className="h-6 w-6" />
-              </a>
-              <a 
-                href="mailto:bhatv@oregonstate.edu" 
-                className="text-gray-600 hover:text-primary transition-colors"
-                aria-label="Email Contact"
-              >
-                <FaEnvelope className="h-6 w-6" />
-              </a>
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-8 pt-4 border-t border-gray-200">
-          <p className="text-center text-sm text-gray-600">
-            © {currentYear} Varun Bhat CS Portfolio. All rights reserved.
-          </p>
         </div>
       </div>
     </footer>

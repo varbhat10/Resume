@@ -24,11 +24,10 @@ export default function Home() {
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600 dark:text-gray-300">
-                CS Student • AWS Certified • Cat Dad
+                2025 CS Graduate • AWS Certified
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700 dark:text-gray-300">
-                I'm graduating from OSU in 2025 and I love building things that matter. 
-                Currently working on an AI chatbot with HP, and yes, that's my cat Sophie you'll meet below.
+                I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
@@ -419,17 +418,29 @@ export default function Home() {
                   </p>
                 </div>
                 
-                <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
-                  <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                    <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Target</h4>
-                    <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Team Specialist</p>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">
-                    Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
-                  </p>
-                </div>
+                                 <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                     <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Target</h4>
+                     <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
+                   </div>
+                   <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Team Specialist</p>
+                   <p className="text-gray-600 dark:text-gray-400 text-sm">
+                     Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
+                   </p>
+                 </div>
+                 
+                 <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                     <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Taco Bell</h4>
+                     <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
+                   </div>
+                   <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Service Champion</p>
+                   <p className="text-gray-600 dark:text-gray-400 text-sm">
+                     Communicated and took orders from customers in a high stress fast pace environment.
+                   </p>
+                 </div>
               </div>
             </div>
           </motion.div>

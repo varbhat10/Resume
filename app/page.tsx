@@ -75,7 +75,7 @@ export default function Home() {
               <div className="relative w-full h-80 flex items-center justify-center">
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
                   <Image
-                    src="/images/suitpic.jpg"
+                    src="/Resume/images/suitpic.jpg"
                     alt="Varun Bhat"
                     fill
                     className="object-cover"
@@ -100,44 +100,44 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-6">A bit about me</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                  <Image
-                    src="/images/hikingrest.jpg"
-                    alt="Varun hiking"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                   <Image
+                     src="/Resume/images/hikingrest.jpg"
+                     alt="Varun hiking"
+                     fill
+                     className="object-cover"
+                   />
+                 </div>
                 <p className="text-gray-600 dark:text-gray-400">
                   Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
                   the problem-solving keeps me hooked.
                 </p>
               </div>
               <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                  <Image
-                    src="/images/sophiepose.jpg"
-                    alt="Sophie the cat"
-                    fill
-                    className="object-cover"
-                    style={{ objectPosition: 'center 40%' }}
-                  />
-                </div>
+                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                   <Image
+                     src="/Resume/images/sophiepose.jpg"
+                     alt="Sophie the cat"
+                     fill
+                     className="object-cover"
+                     style={{ objectPosition: 'center 40%' }}
+                   />
+                 </div>
                 <p className="text-gray-600 dark:text-gray-400">
                   This is Sophie, my coding companion and chief keyboard inspector. 
                   She's excellent at reminding me to take breaks.
                 </p>
               </div>
               <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
-                  <Image
-                    src="/images/motorcycleresume.jpg"
-                    alt="Motorcycle adventures"
-                    fill
-                    className="object-cover"
-                    style={{ objectPosition: 'center 45%' }}
-                  />
-                </div>
+                                 <div className="aspect-square rounded-lg overflow-hidden mb-4">
+                   <Image
+                     src="/Resume/images/motorcycleresume.jpg"
+                     alt="Motorcycle adventures"
+                     fill
+                     className="object-cover"
+                     style={{ objectPosition: 'center 45%' }}
+                   />
+                 </div>
                 <p className="text-gray-600 dark:text-gray-400">
                   When I'm not coding, I'm probably riding my motorcycle, playing tennis, 
                   or trying to find the spiciest food in town.
@@ -233,14 +233,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="relative">
-                <div className="aspect-video rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/chatbotxex.jpg"
-                    alt="AI Chatbot project"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                                 <div className="aspect-video rounded-lg overflow-hidden">
+                   <Image
+                     src="/Resume/images/chatbotxex.jpg"
+                     alt="AI Chatbot project"
+                     fill
+                     className="object-cover"
+                   />
+                 </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">AI Chatbot with HP</h3>
@@ -266,14 +266,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="lg:order-2 relative">
-                <div className="aspect-video rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/PawRx.jpg"
-                    alt="PawRx Pet Medication Safety"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                                 <div className="aspect-video rounded-lg overflow-hidden">
+                   <Image
+                     src="/Resume/images/PawRx.jpg"
+                     alt="PawRx Pet Medication Safety"
+                     fill
+                     className="object-cover"
+                   />
+                 </div>
               </div>
               <div className="lg:order-1">
                 <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety</h3>
@@ -307,14 +307,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="relative">
-                <div className="aspect-video rounded-lg overflow-hidden">
-                  <Image
-                    src="/images/CatShazam.jpg"
-                    alt="Shazam for Cats"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                                 <div className="aspect-video rounded-lg overflow-hidden">
+                   <Image
+                     src="/Resume/images/CatShazam.jpg"
+                     alt="Shazam for Cats"
+                     fill
+                     className="object-cover"
+                   />
+                 </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>

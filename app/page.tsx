@@ -346,38 +346,89 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-8 text-center">Where I've worked</h2>
             
-            <div className="space-y-12">
-              <div className="relative pl-8 border-l-2 border-primary/30">
-                <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                  <h3 className="text-xl font-bold text-primary">BlackBerry/Cylance</h3>
-                  <span className="text-sm text-gray-500">Dec 2022 - Apr 2023</span>
+            {/* CS/Tech Experience - Featured */}
+            <div className="mb-16">
+              <h3 className="text-xl font-semibold mb-6 text-primary border-b border-primary/30 pb-2">
+                💻 Software & Tech Experience
+              </h3>
+              <div className="space-y-12">
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 dark:bg-primary/10 rounded-r-lg p-6">
+                  <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-bold text-primary">BlackBerry/Cylance</h4>
+                    <span className="text-sm text-gray-500 font-medium">Dec 2022 - Apr 2023</span>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Software Developer Intern</p>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                    My first real taste of enterprise software development. Worked on API testing and automation 
+                    in the cybersecurity space - learned a ton about Python, AWS, and how to write tests that actually matter.
+                  </p>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-medium">Key achievements:</span> Built automated testing frameworks, worked with RESTful APIs, 
+                    managed AWS services (EC2, S3, DynamoDB), and set up CI/CD pipelines with Jenkins.
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Python</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">AWS</span>
+                    <span className="text-xs px-2 py-1 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 rounded-full">Jenkins</span>
+                    <span className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full">REST APIs</span>
+                  </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Software Developer Intern</p>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  My first real taste of enterprise software development. Worked on API testing and automation 
-                  in the cybersecurity space - learned a ton about Python, AWS, and how to write tests that actually matter.
-                </p>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  <span className="font-medium">What I did:</span> Built automated testing frameworks, worked with RESTful APIs, 
-                  managed AWS services (EC2, S3, DynamoDB), and set up CI/CD pipelines with Jenkins.
+                
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 dark:bg-primary/10 rounded-r-lg p-6">
+                  <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-bold text-primary">Oregon Health & Science University</h4>
+                    <span className="text-sm text-gray-500 font-medium">Mar 2021 - Sep 2021</span>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Research Assistant</p>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                    Built web tools for pathology researchers working with primate studies. 
+                    My first experience creating applications that real people used for important work.
+                  </p>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-medium">Key achievements:</span> Web development with HTML, CSS, and JavaScript, 
+                    created data visualization interfaces for research data.
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full">HTML/CSS</span>
+                    <span className="text-xs px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full">JavaScript</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">Data Visualization</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">Research</span>
+                  </div>
                 </div>
               </div>
-              
-              <div className="relative pl-8 border-l-2 border-primary/30">
-                <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                  <h3 className="text-xl font-bold text-primary">Oregon Health & Science University</h3>
-                  <span className="text-sm text-gray-500">Mar 2021 - Sep 2021</span>
+            </div>
+
+            {/* Other Experience - Supporting */}
+            <div>
+              <h3 className="text-lg font-medium mb-4 text-gray-600 dark:text-gray-400">
+                🏢 Other Professional Experience
+              </h3>
+              <div className="space-y-8">
+                <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                  <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Viking Veterinary Care</h4>
+                    <span className="text-sm text-gray-500">Jun 2024 - Sep 2024</span>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Technician Assistant</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">
+                    Managed treatments for vaccine administration, blood tests, X-rays, and animal primary care. 
+                    Developed strong communication skills for sensitive situations.
+                  </p>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 font-medium mb-4">Research Assistant</p>
-                <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Built web tools for pathology researchers working with primate studies. 
-                  My first experience creating applications that real people used for important work.
-                </p>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  <span className="font-medium">What I did:</span> Web development with HTML, CSS, and JavaScript, 
-                  created data visualization interfaces for research data.
+                
+                <div className="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
+                  <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h4 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Target</h4>
+                    <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">Team Specialist</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">
+                    Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
+                  </p>
                 </div>
               </div>
             </div>

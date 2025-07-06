@@ -57,6 +57,14 @@ const Navbar = () => {
     localStorage.setItem('theme', newDarkMode ? 'dark' : 'light');
   };
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsOpen(false);
+  };
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -78,21 +86,18 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="hover:text-primary transition-colors">
-              Home
-            </Link>
-            <Link href="/about" className="hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link href="/skills" className="hover:text-primary transition-colors">
-              Skills
-            </Link>
-            <Link href="/projects" className="hover:text-primary transition-colors">
+            <button 
+              onClick={() => scrollToSection('projects')}
+              className="hover:text-primary transition-colors"
+            >
               Projects
-            </Link>
-            <Link href="/contact" className="hover:text-primary transition-colors">
+            </button>
+            <a 
+              href="mailto:bhatv@oregonstate.edu" 
+              className="hover:text-primary transition-colors"
+            >
               Contact
-            </Link>
+            </a>
             <button 
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -130,41 +135,19 @@ const Navbar = () => {
         } overflow-hidden`}
       >
         <div className="container-custom py-4 flex flex-col space-y-4">
-          <Link 
-            href="/" 
-            className="py-2 hover:text-primary transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Home
-          </Link>
-          <Link 
-            href="/about" 
-            className="py-2 hover:text-primary transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            About
-          </Link>
-          <Link 
-            href="/skills" 
-            className="py-2 hover:text-primary transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Skills
-          </Link>
-          <Link 
-            href="/projects" 
-            className="py-2 hover:text-primary transition-colors"
-            onClick={() => setIsOpen(false)}
+          <button 
+            onClick={() => scrollToSection('projects')}
+            className="py-2 hover:text-primary transition-colors text-left"
           >
             Projects
-          </Link>
-          <Link 
-            href="/contact" 
+          </button>
+          <a 
+            href="mailto:bhatv@oregonstate.edu" 
             className="py-2 hover:text-primary transition-colors"
             onClick={() => setIsOpen(false)}
           >
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

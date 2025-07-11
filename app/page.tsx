@@ -111,6 +111,7 @@ export default function Home() {
                     className="object-cover"
                   />
                 </div>
+                <p className="text-sm text-gray-500 italic text-center mb-3">The hike got to me.</p>
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
                   Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
@@ -128,6 +129,7 @@ export default function Home() {
                     style={{ objectPosition: 'center 40%' }}
                   />
                 </div>
+                <p className="text-sm text-gray-500 italic text-center mb-3">Sophie posin</p>
                 <h3 className="text-xl font-bold mb-2">Meet Sophie</h3>
                 <p className="text-gray-600">
                   This is Sophie, my coding companion and chief keyboard inspector. 
@@ -145,6 +147,7 @@ export default function Home() {
                     style={{ objectPosition: 'center 45%' }}
                   />
                 </div>
+                <p className="text-sm text-gray-500 italic text-center mb-3">✌️</p>
                 <h3 className="text-xl font-bold mb-2">Life Outside Code</h3>
                 <p className="text-gray-600">
                   When I'm not coding, I'm probably riding my motorcycle, playing tennis, 

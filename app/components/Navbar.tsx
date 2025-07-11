@@ -60,12 +60,6 @@ const Navbar = () => {
             >
               Projects
             </button>
-            <a 
-              href="mailto:bhatv@oregonstate.edu" 
-              className="hover:text-primary transition-colors"
-            >
-              Contact
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -95,13 +89,6 @@ const Navbar = () => {
           >
             Projects
           </button>
-          <a 
-            href="mailto:bhatv@oregonstate.edu" 
-            className="py-2 hover:text-primary transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Contact
-          </a>
         </div>
       </div>
     </nav>

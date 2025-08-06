@@ -23,7 +23,7 @@ export default function Home() {
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600">
-                B.S. Computer Science, Oregon State University 2025 • AWS Certified
+                B.S. Computer Science & Minor in Business • Oregon State University 2022-2025 • AWS Certified
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
                 I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
@@ -114,9 +114,9 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">The hike got to me.</p>
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
-                  Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
+                  Computer Science major with a Business minor at Oregon State University (3.87 GPA). I actually enjoy studying CS - 
                   the problem-solving aspect keeps me hooked. Whether it's debugging code at 2 AM or 
-                  figuring out algorithms, I genuinely love what I do.
+                  figuring out algorithms, I genuinely love what I do. Also received the Finley Academic Scholarship and James Lochhead Memorial Scholarship.
                 </p>
               </div>
               <div className="relative reverse-tilt organic-spacing">
@@ -180,14 +180,13 @@ export default function Home() {
                     Python
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaJava className="text-red-500" />
-                    Java
+                    SQL
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    JavaScript
+                    PostgreSQL
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    HTML/CSS
+                    GoLang
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     C++
@@ -196,16 +195,28 @@ export default function Home() {
                     C
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    HTML
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <FaNodeJs className="text-green-500" />
+                    Node.js
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <FaReact className="text-cyan-400" />
+                    React
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <FaJava className="text-red-500" />
+                    Java
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     C#
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Ruby
+                    MASM
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     Kotlin
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    MASM
                   </span>
                 </div>
               </div>
@@ -221,19 +232,41 @@ export default function Home() {
                     Node.js
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaDocker className="text-blue-500" />
-                    Docker
+                    FastAPI
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <SiJenkins className="text-red-600" />
-                    Jenkins
+                    <SiTensorflow className="text-orange-600" />
+                    TensorFlow
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Keras
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <FaDocker className="text-blue-500" />
+                    Docker
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     <SiPostman className="text-orange-600" />
                     Postman
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <SiJenkins className="text-red-600" />
+                    Jenkins
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     Splunk
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Wireshark
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    VMware
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Spring Boot
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Railway
                   </span>
                 </div>
               </div>
@@ -248,6 +281,9 @@ export default function Home() {
                   </span>
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
                     Azure
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Oracle Cloud
                   </span>
                 </div>
               </div>
@@ -273,7 +309,51 @@ export default function Home() {
           </motion.div>
           
           <div className="space-y-20">
-            {/* Project 1 - HP Chatbot */}
+            {/* Project 1 - PawRx */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+            >
+              <div className="relative">
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/Resume/images/PawRx.jpg"
+                    alt="PawRx Pet Medication Safety"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety Platform</h3>
+                <p className="text-gray-600 mb-4">
+                  Designed a full-stack responsive platform using React, Node.js, and MongoDB with AI-powered drug interaction checking. 
+                  Built with FastAPI + OpenAI to synchronously check for dangerous drug interactions when adding medications to pet profiles. 
+                  Currently beta testing with Viking Veterinary Care for real-world feedback with ~10 active users.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Node.js</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">MongoDB</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">FastAPI</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">OpenAI</span>
+                  <span className="text-xs px-3 py-1 bg-pink-100 text-pink-800 rounded-full">Pet Care</span>
+                </div>
+                <a 
+                  href="https://varbhat10.github.io/PawRx/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline font-medium"
+                >
+                  Try it out →
+                </a>
+              </div>
+            </motion.div>
+            
+            {/* Project 2 - HP Chatbot */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -292,17 +372,19 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">AI Chatbot with HP</h3>
+                <h3 className="text-2xl font-bold mb-4">HP Oregon State RAG Chatbot</h3>
                 <p className="text-gray-600 mb-4">
-                  Built an AI chatbot in partnership with Hewlett-Packard for Oregon State students and faculty. 
-                  This was a great learning experience for me and I held a leadership role. 
-                  It's been incredible working with industry professionals and learning how real-world AI development works.
+                  Led development of a Retrieval-Augmented Generation (RAG) chatbot for OSU documentation access in partnership with Hewlett-Packard. 
+                  Built scalable multi-threaded components using Python, FastAPI, LangChain, and OpenAI APIs. 
+                  Facilitated GitHub repos, sprint cycles, and team meetings with HP engineers and stakeholders while focusing on modular backend design.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
-                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">AI/ML</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">NLP</span>
-                  <span className="text-xs px-3 py-1 bg-gray-100 text-gray-800 rounded-full">Industry Partnership</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">FastAPI</span>
+                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">LangChain</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">OpenAI</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">RAG</span>
+                  <span className="text-xs px-3 py-1 bg-gray-100 text-gray-800 rounded-full">Leadership</span>
                 </div>
               </div>
             </motion.div>
@@ -367,17 +449,59 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>
+                <h3 className="text-2xl font-bold mb-4">Cat Shazam - Breed Classifier</h3>
                 <p className="text-gray-600 mb-4">
-                  Started as a joke in the vet office about identifying cat breeds, but turned into a solid machine learning project using CNNs. 
-                  Sophie (my cat) is pretty stoked about the results.
+                  Classify cat breeds with a single picture using a CNN model built with TensorFlow/Keras. 
+                  Trained and fine-tuned a CNN model using VGG16 + transfer learning in Python with TensorFlow/Keras.
+                  Created a simple user interface to classify cat breeds from images and achieved 92% test accuracy for cat breed detection.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
                   <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">TensorFlow</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Keras</span>
                   <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">CNN</span>
-                  <span className="text-xs px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">Computer Vision</span>
+                  <span className="text-xs px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">VGG16</span>
+                  <span className="text-xs px-3 py-1 bg-red-100 text-red-800 rounded-full">Transfer Learning</span>
                 </div>
+              </div>
+            </motion.div>
+            
+            {/* Project 4 - Resume Website */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+            >
+              <div className="lg:order-2 relative">
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <div className="flex items-center justify-center h-full bg-gradient-to-br from-primary/10 to-primary/20">
+                    <span className="text-4xl">💻</span>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:order-1">
+                <h3 className="text-2xl font-bold mb-4">Resume Website</h3>
+                <p className="text-gray-600 mb-4">
+                  Designed and deployed this personal portfolio using HTML/CSS/JavaScript and modern frameworks, hosted on GitHub Pages. 
+                  Features responsive design, smooth animations, and a personal touch that shows my personality alongside my technical skills.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">HTML/CSS</span>
+                  <span className="text-xs px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
+                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
+                  <span className="text-xs px-3 py-1 bg-gray-100 text-gray-800 rounded-full">GitHub Pages</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Responsive Design</span>
+                </div>
+                <a 
+                  href="https://varbhat10.github.io/Resume/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline font-medium"
+                >
+                  You're looking at it! →
+                </a>
               </div>
             </motion.div>
           </div>
@@ -410,12 +534,12 @@ export default function Home() {
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Software Developer Intern</p>
                   <p className="text-gray-700 mb-4">
-                    My first real taste of enterprise software development. Worked on API testing and automation 
-                    in the cybersecurity space - learned a ton about Python, AWS, and how to write tests that actually matter.
+                    Engineered automated integration and unit tests in Python to validate RESTful APIs, improving testing coverage by 40%. 
+                    Used Postman and internal tools to debug endpoints and verify functionality. Deployed AWS services (EC2, S3, DynamoDB) to support scalable backend systems.
                   </p>
                   <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Built automated testing frameworks, worked with RESTful APIs, 
-                    managed AWS services (EC2, S3, DynamoDB), and set up CI/CD pipelines with Jenkins.
+                    <span className="font-medium">Key achievements:</span> Implemented Jenkins CI/CD pipelines, diagnosed container issues in Dockerized environments, 
+                    and collaborated across frontend (React/JS) and backend (FastAPI/Flask/Python) layers to resolve bugs.
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
@@ -428,23 +552,46 @@ export default function Home() {
                 <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                    <h4 className="text-xl font-bold text-primary">Oregon Health & Science University</h4>
-                    <span className="text-sm text-gray-500 font-medium">Mar 2021 - Sep 2021</span>
+                    <h4 className="text-xl font-bold text-primary">Viking Veterinary Care</h4>
+                    <span className="text-sm text-gray-500 font-medium">Jun 2024 - Sep 2024</span>
                   </div>
-                  <p className="text-gray-600 font-medium mb-4">Research Assistant</p>
+                  <p className="text-gray-600 font-medium mb-4">Technician Assistant</p>
                   <p className="text-gray-700 mb-4">
-                    Built web tools for pathology researchers working with primate studies. 
-                    My first experience creating applications that real people used for important work.
+                    Performed essential treatments including vaccine administration, diagnostic testing (bloodwork, urinalysis), and imaging support (X-rays). 
+                    Assisted in daily patient care and post-operative monitoring, ensuring timely treatment delivery and proper animal handling in a high-paced clinical setting.
                   </p>
                   <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Web development with HTML, CSS, and JavaScript, 
-                    created data visualization interfaces for research data.
+                    <span className="font-medium">Key achievements:</span> Collaborated closely with veterinarians and technicians while beta testing PawRx project 
+                    with Viking to improve pet medication education and safety.
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Animal Care</span>
+                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Medical Procedures</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Beta Testing</span>
+                    <span className="text-xs px-2 py-1 bg-pink-100 text-pink-800 rounded-full">Veterinary</span>
+                  </div>
+                </div>
+                
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
+                  <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-bold text-primary">Oregon Health & Science University</h4>
+                    <span className="text-sm text-gray-500 font-medium">Jun 2021 - Sep 2021</span>
+                  </div>
+                  <p className="text-gray-600 font-medium mb-4">Research Volunteer</p>
+                  <p className="text-gray-700 mb-4">
+                    Created educational websites using HTML/CSS/JavaScript for tutoring and outreach. 
+                    Supported underrepresented students in STEM through workshops and peer guidance, participating in research focused on early exposure to computer science concepts.
+                  </p>
+                  <div className="text-sm text-gray-600 mb-4">
+                    <span className="font-medium">Key achievements:</span> Presented findings on Malaria research to a group of 50+ attendees, 
+                    developed web-based educational tools for STEM outreach initiatives.
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">HTML/CSS</span>
                     <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
-                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Data Visualization</span>
-                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Research</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Education</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">STEM Outreach</span>
                   </div>
                 </div>
               </div>
@@ -459,13 +606,13 @@ export default function Home() {
                 <div className="relative pl-6 border-l-2 border-gray-200">
                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                    <h4 className="text-lg font-semibold text-gray-700">Viking Veterinary Care</h4>
-                    <span className="text-sm text-gray-500">Jun 2024 - Sep 2024</span>
+                    <h4 className="text-lg font-semibold text-gray-700">Target</h4>
+                    <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
                   </div>
-                  <p className="text-gray-600 font-medium mb-2">Technician Assistant</p>
+                  <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
                   <p className="text-gray-600 text-sm">
-                    Managed treatments for vaccine administration, blood tests, X-rays, and animal primary care. 
-                    Developed strong communication skills for sensitive situations.
+                    Coordinated inventory movement and team communication during peak customer hours. 
+                    Trained new team members on POS and in-store customer service standards. Recognized for consistency and problem-solving under pressure.
                   </p>
                 </div>
                 
@@ -485,11 +632,11 @@ export default function Home() {
                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
                     <h4 className="text-lg font-semibold text-gray-700">Taco Bell</h4>
-                    <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
+                    <span className="text-sm text-gray-500">Jun 2021 - Aug 2021</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-2">Service Champion</p>
                   <p className="text-gray-600 text-sm">
-                    Communicated and took orders from customers in a high stress fast pace environment.
+                    Operated drive-through and register under high-volume conditions while maintaining great customer service.
                   </p>
                 </div>
               </div>
@@ -509,16 +656,16 @@ export default function Home() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-3xl font-bold mb-6">Something that actually matters to me</h2>
-            <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-bold mb-4 text-primary">JoyBox</h3>
+            <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm quirky-border slightly-tilted">
+              <h3 className="text-2xl font-bold mb-4 text-primary wavy-underline">JoyBox</h3>
               <p className="text-lg text-gray-700 mb-4">
-                I co-founded this organization that delivers personalized gifts and letters to kids fighting cancer 
-                at Doernbecher Pediatric Hospital. It started small - just wanting to brighten someone's day during 
-                a really tough time.
+                I co-founded and led this registered nonprofit to deliver gift boxes ("JoyBoxes") to pediatric cancer patients at OHSU Doernbecher Pediatric Hospital. 
+                Each box includes personalized toys, crafts, and handwritten letters from myself and other team members. 
+                I organized donation drives, managed student volunteers, and partnered with hospital staff to ensure safe and timely delivery.
               </p>
               <p className="text-gray-600 italic">
-                Honestly, this has been one of the most meaningful things I've ever been part of. 
-                Nothing is better than creating an impact and seeing it with your own eyes.
+                This is honestly the most meaningful and personally rewarding initiative I've ever led. 
+                There's nothing quite like seeing the direct impact you can have on someone's day during such a difficult time.
               </p>
             </div>
           </motion.div>

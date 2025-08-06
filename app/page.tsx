@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center py-20">
-        <div className="absolute inset-0 z-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
+        <div className="absolute inset-0 z-0 bg-gradient-to-br from-blue-50 via-orange-50 to-green-50"></div>
         <div className="container-custom z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -23,10 +23,10 @@ export default function Home() {
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600">
-                B.S. Computer Science, Oregon State University • Expected June 2025 • GPA 3.86 • AWS Certified
+                B.S. Computer Science, Oregon State University 2025 • AWS Certified
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
-                I am a Computer Science student at Oregon State University graduating in June 2025. I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
+                I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
@@ -36,8 +36,8 @@ export default function Home() {
                   See my work
                 </a>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg mb-8">
-                <h3 className="font-semibold mb-2">Get in touch:</h3>
+              <div className="bg-gradient-to-r from-blue-50 to-orange-50 asymmetric-padding quirky-border mb-8 slightly-tilted">
+                <h3 className="font-semibold mb-2 wavy-underline">Get in touch:</h3>
                 <div className="space-y-1">
                   <a href="mailto:varbhat10@gmail.com" className="block text-primary hover:underline">varbhat10@gmail.com</a>
                   <a href="mailto:bhatv@oregonstate.edu" className="block text-primary hover:underline">bhatv@oregonstate.edu</a>
@@ -72,7 +72,7 @@ export default function Home() {
               className="hidden lg:block relative"
             >
               <div className="relative w-full h-80 flex items-center justify-center">
-                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30">
+                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30 casual-shadow reverse-tilt">
                   <Image
                     src="/Resume/images/suitpic.jpg"
                     alt="Varun Bhat"
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* About Me - More Personal */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gradient-to-r from-orange-50 via-green-50 to-blue-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -96,14 +96,14 @@ export default function Home() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h2 className="text-3xl font-bold mb-6">A bit about me</h2>
+            <h2 className="text-3xl font-bold organic-spacing wavy-underline">A bit about me</h2>
             <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
               Beyond my professional side, here are some examples of what I like to do. I love to travel (recently went to Japan), 
               go on hikes, ride motorcycles, and ofc, hang out with my cat Sophie who somehow always knows when I need a break.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+              <div className="relative slightly-tilted">
+                <div className="aspect-square quirky-border overflow-hidden mb-4 casual-shadow">
                   <Image
                     src="/Resume/images/hikingrest.jpg"
                     alt="Varun hiking"
@@ -114,13 +114,13 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">The hike got to me.</p>
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
-                  Oregon State University Computer Science student with a 3.86 GPA, graduating June 2025. I actually enjoy studying CS - 
+                  Oregon State University senior with a 3.86 GPA. I actually enjoy studying CS - 
                   the problem-solving aspect keeps me hooked. Whether it's debugging code at 2 AM or 
                   figuring out algorithms, I genuinely love what I do.
                 </p>
               </div>
-              <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+              <div className="relative reverse-tilt organic-spacing">
+                <div className="aspect-square quirky-border overflow-hidden mb-4 casual-shadow">
                   <Image
                     src="/Resume/images/sophiepose.jpg"
                     alt="Sophie the cat"
@@ -137,8 +137,8 @@ export default function Home() {
                   reminding me that there's life beyond the screen. Best debugging partner ever.
                 </p>
               </div>
-              <div className="relative">
-                <div className="aspect-square rounded-lg overflow-hidden mb-4">
+              <div className="relative slightly-tilted">
+                <div className="aspect-square quirky-border overflow-hidden mb-4 casual-shadow">
                   <Image
                     src="/Resume/images/motorcycleresume.jpg"
                     alt="Motorcycle adventures"
@@ -170,9 +170,9 @@ export default function Home() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl font-bold mb-8 text-center">What I'm working with</h2>
+            <h2 className="text-3xl font-bold organic-spacing text-center wavy-underline">What I'm working with</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div>
+              <div className="slightly-tilted asymmetric-padding bg-gradient-to-br from-blue-50 to-white quirky-border">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Programming Languages</h3>
                 <div className="flex flex-wrap gap-3 mb-6">
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
@@ -209,7 +209,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div>
+              <div className="reverse-tilt asymmetric-padding bg-gradient-to-br from-orange-50 to-white quirky-border">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Frameworks & Tools</h3>
                 <div className="flex flex-wrap gap-3 mb-6">
                   <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
@@ -238,16 +238,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-4 text-primary text-center">Cloud Platforms</h3>
-              <div className="flex flex-wrap gap-3 justify-center">
-                <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                  <FaAws className="text-orange-400" />
-                  AWS (Certified)
-                </span>
-                <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                  Azure
-                </span>
+            <div className="mt-8 text-center">
+              <div className="inline-block slightly-tilted asymmetric-padding bg-gradient-to-br from-green-50 to-white quirky-border">
+                <h3 className="text-xl font-semibold mb-4 text-primary">Cloud Platforms</h3>
+                <div className="flex flex-wrap gap-3 justify-center">
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <FaAws className="text-orange-400" />
+                    AWS (Certified)
+                  </span>
+                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    Azure
+                  </span>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -264,8 +266,8 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Some cool stuff I've built</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold organic-spacing wavy-underline">Some cool stuff I've built</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto slightly-tilted">
               Here are a few projects I'm actually excited about (and some that employers seem to like too)
             </p>
           </motion.div>
@@ -293,15 +295,13 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-4">AI Chatbot with HP</h3>
                 <p className="text-gray-600 mb-4">
                   Built an AI chatbot in partnership with Hewlett-Packard for Oregon State students and faculty. 
-                  Led development of conversational AI capabilities using retrieval-augmented generation (RAG) for OSU-specific documentation access.
-                  This was a great learning experience where I held a leadership role and worked with industry professionals.
+                  This was a great learning experience for me and I held a leadership role. 
+                  It's been incredible working with industry professionals and learning how real-world AI development works.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
                   <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">AI/ML</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">RAG</span>
-                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">FastAPI</span>
-                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">LangChain</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">NLP</span>
                   <span className="text-xs px-3 py-1 bg-gray-100 text-gray-800 rounded-full">Industry Partnership</span>
                 </div>
               </div>
@@ -369,9 +369,8 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Shazam for Cats</h3>
                 <p className="text-gray-600 mb-4">
-                  Classify cat breeds with a single picture using CNN model built with TensorFlow/Keras. 
-                  Trained and fine-tuned a CNN model using VGG16 + transfer learning for high accuracy breed detection.
-                  Created a simple user interface to classify cat breeds from images. Achieved 92% test accuracy for cat breed detection.
+                  Started as a joke in the vet office about identifying cat breeds, but turned into a solid machine learning project using CNNs. 
+                  Sophie (my cat) is pretty stoked about the results.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
@@ -430,22 +429,21 @@ export default function Home() {
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-bold text-primary">Oregon Health & Science University</h4>
-                    <span className="text-sm text-gray-500 font-medium">Jun 2021 - Sep 2021</span>
+                    <span className="text-sm text-gray-500 font-medium">Mar 2021 - Sep 2021</span>
                   </div>
-                  <p className="text-gray-600 font-medium mb-4">Research Volunteer</p>
+                  <p className="text-gray-600 font-medium mb-4">Research Assistant</p>
                   <p className="text-gray-700 mb-4">
-                    Created educational websites using HTML, CSS, and JavaScript for tutoring and outreach.
-                    Supported underrepresented students in STEM through workshops and presentations.
-                    Participated in research focused on early exposure to computer science concepts.
+                    Built web tools for pathology researchers working with primate studies. 
+                    My first experience creating applications that real people used for important work.
                   </p>
                   <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Developed web-based educational tools, 
-                    supported STEM outreach initiatives, and presented findings to a group of 50+ attendees.
+                    <span className="font-medium">Key achievements:</span> Web development with HTML, CSS, and JavaScript, 
+                    created data visualization interfaces for research data.
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">HTML/CSS</span>
                     <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
-                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Education</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Data Visualization</span>
                     <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Research</span>
                   </div>
                 </div>
@@ -487,11 +485,11 @@ export default function Home() {
                   <div className="absolute -left-1.5 top-0 w-3 h-3 bg-gray-400 rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
                     <h4 className="text-lg font-semibold text-gray-700">Taco Bell</h4>
-                    <span className="text-sm text-gray-500">Jun 2021 - Aug 2021</span>
+                    <span className="text-sm text-gray-500">Jun 2021 - Sep 2021</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-2">Service Champion</p>
                   <p className="text-gray-600 text-sm">
-                    Operated drive-through and register under high-volume conditions while maintaining great customer service.
+                    Communicated and took orders from customers in a high stress fast pace environment.
                   </p>
                 </div>
               </div>

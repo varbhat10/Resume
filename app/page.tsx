@@ -389,47 +389,6 @@ export default function Home() {
               </div>
             </motion.div>
             
-            {/* Project 2 - PawRx */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
-            >
-              <div className="lg:order-2 relative">
-                <div className="aspect-video rounded-lg overflow-hidden">
-                  <Image
-                    src="/Resume/images/PawRx.jpg"
-                    alt="PawRx Pet Medication Safety"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-              <div className="lg:order-1">
-                <h3 className="text-2xl font-bold mb-4">PawRx - Pet Medication Safety</h3>
-                <p className="text-gray-600 mb-4">
-                  Built this after realizing how dangerous drug interactions can be for pets. 
-                  It combines my love for animals with practical AI to help pet owners keep their paw friends safe.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
-                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Node.js</span>
-                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">AI</span>
-                  <span className="text-xs px-3 py-1 bg-pink-100 text-pink-800 rounded-full">Pet Care</span>
-                </div>
-                <a 
-                  href="https://varbhat10.github.io/PawRx/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline font-medium"
-                >
-                  Check it out →
-                </a>
-              </div>
-            </motion.div>
-            
             {/* Project 3 - Cat Shazam */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}

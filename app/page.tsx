@@ -435,9 +435,12 @@ export default function Home() {
             >
               <div className="lg:order-2 relative">
                 <div className="aspect-video rounded-lg overflow-hidden">
-                  <div className="flex items-center justify-center h-full bg-gradient-to-br from-primary/10 to-primary/20">
-                    <span className="text-4xl">💻</span>
-                  </div>
+                  <Image
+                    src="/Resume/images/resumewebpic.jpg"
+                    alt="Resume Website"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
               <div className="lg:order-1">

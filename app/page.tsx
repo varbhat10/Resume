@@ -11,7 +11,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center py-20">
-        <div className="absolute inset-0 z-0 bg-gradient-to-br from-blue-50 via-orange-50 to-green-50"></div>
+        <div className="absolute inset-0 z-0 bg-gradient-to-br from-green-50 via-amber-50 to-red-50"></div>
         <div className="container-custom z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -23,10 +23,11 @@ export default function Home() {
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600">
-                B.S. Computer Science & Minor in Business • Oregon State University 2022-2025 • AWS Certified
+                Product Engineering Services Technician @ Intel • Portland, OR
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
-                I am an Oregon State University graduate as of June 2025 and I particularly care about building tools that have an impact. My most recent professional experience was creating an AI chatbot with HP for OSU students and faculty.
+                Oregon State CS grad working on silicone validation and testing for next-gen server platforms on a contract with Intel Corporation. 
+                I am always hungry learn more in the tech/business industry to contriubute to a lasting impact.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
@@ -36,7 +37,7 @@ export default function Home() {
                   See my work
                 </a>
               </div>
-              <div className="bg-gradient-to-r from-blue-50 to-orange-50 asymmetric-padding quirky-border mb-8 slightly-tilted">
+              <div className="bg-gradient-to-r from-green-50 to-amber-50 asymmetric-padding quirky-border mb-8 slightly-tilted">
                 <h3 className="font-semibold mb-2 wavy-underline">Get in touch:</h3>
                 <div className="space-y-1">
                   <a href="mailto:varbhat10@gmail.com" className="block text-primary hover:underline">varbhat10@gmail.com</a>
@@ -87,7 +88,7 @@ export default function Home() {
       </section>
 
       {/* About Me - More Personal */}
-      <section className="py-20 bg-gradient-to-r from-orange-50 via-green-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-r from-amber-50 via-green-50 to-emerald-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -98,8 +99,8 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold organic-spacing wavy-underline">A bit about me</h2>
             <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
-              Beyond my professional side, here are some examples of what I like to do. I love to travel (recently went to Japan), 
-              go on hikes, ride motorcycles, and ofc, hang out with my cat Sophie who somehow always knows when I need a break.
+              I love traveling (recently went to Japan), 
+              go on hikes, ride motorcycles, and ofc, hang out with my cat Sophie.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="relative slightly-tilted">
@@ -114,9 +115,9 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">The hike got to me.</p>
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
-                  Computer Science major with a Business minor at Oregon State University (3.87 GPA). I actually enjoy studying CS - 
-                  the problem-solving aspect keeps me hooked. Whether it's debugging code at 2 AM or 
-                  figuring out algorithms, I genuinely love what I do. Also received the Finley Academic Scholarship and James Lochhead Memorial Scholarship.
+                  Computer Science major with a Business minor at Oregon State University (3.88 GPA). 
+                  The problem-solving aspect keeps me hooked. Whether it's debugging code in the AMs or 
+                  setting up databases, I genuinely love what I do. I also have a passion for management and leadership. I hope to pursue the managerial route in the future. 
                 </p>
               </div>
               <div className="relative reverse-tilt organic-spacing">
@@ -150,142 +151,10 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">✌️</p>
                 <h3 className="text-xl font-bold mb-2">Life Outside Code</h3>
                 <p className="text-gray-600">
-                  When I'm not coding, I'm probably riding my motorcycle, playing tennis, 
-                  or on a quest to find the spiciest food in town. Recently got back from Japan 
-                  (incredible trip!) and always planning the next adventure.
+                  When I'm not coding, I'm probably at the gym, or hanging out with my friends 
+                 on a quest to find the spiciest food in town. Recently got back from Japan 
+                  (incredible trip!) and have a goal to travel the world.
                 </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* What I Do */}
-      <section className="py-20">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto"
-          >
-            <h2 className="text-3xl font-bold organic-spacing text-center wavy-underline">What I'm working with</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="slightly-tilted asymmetric-padding bg-gradient-to-br from-blue-50 to-white quirky-border">
-                <h3 className="text-xl font-semibold mb-4 text-primary">Programming Languages</h3>
-                <div className="flex flex-wrap gap-3 mb-6">
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaPython className="text-blue-500" />
-                    Python
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    SQL
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    PostgreSQL
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    GoLang
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    C++
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    C
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    HTML
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaNodeJs className="text-green-500" />
-                    Node.js
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaReact className="text-cyan-400" />
-                    React
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaJava className="text-red-500" />
-                    Java
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    C#
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    MASM
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Kotlin
-                  </span>
-                </div>
-              </div>
-              <div className="reverse-tilt asymmetric-padding bg-gradient-to-br from-orange-50 to-white quirky-border">
-                <h3 className="text-xl font-semibold mb-4 text-primary">Frameworks & Tools</h3>
-                <div className="flex flex-wrap gap-3 mb-6">
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaReact className="text-cyan-400" />
-                    React
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaNodeJs className="text-green-500" />
-                    Node.js
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    FastAPI
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <SiTensorflow className="text-orange-600" />
-                    TensorFlow
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Keras
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaDocker className="text-blue-500" />
-                    Docker
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <SiPostman className="text-orange-600" />
-                    Postman
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <SiJenkins className="text-red-600" />
-                    Jenkins
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Splunk
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Wireshark
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    VMware
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Spring Boot
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Railway
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="mt-8 text-center">
-              <div className="inline-block slightly-tilted asymmetric-padding bg-gradient-to-br from-green-50 to-white quirky-border">
-                <h3 className="text-xl font-semibold mb-4 text-primary">Cloud Platforms</h3>
-                <div className="flex flex-wrap gap-3 justify-center">
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <FaAws className="text-orange-400" />
-                    AWS (Certified)
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Azure
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    Oracle Cloud
-                  </span>
-                </div>
               </div>
             </div>
           </motion.div>
@@ -332,7 +201,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">
                   Designed a full-stack responsive platform using React, Node.js, and MongoDB with AI-powered drug interaction checking. 
                   Built with FastAPI + OpenAI to synchronously check for dangerous drug interactions when adding medications to pet profiles. 
-                  Currently beta testing with Viking Veterinary Care for real-world feedback with ~10 active users.
+                  Currently beta testing with active users and working with Viking Veterinary Care for real-world feedback.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">React</span>
@@ -410,7 +279,7 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Cat Shazam - Breed Classifier</h3>
                 <p className="text-gray-600 mb-4">
-                  Classify cat breeds with a single picture using a CNN model built with TensorFlow/Keras. 
+                  Allows classifaction of cat breeds with a single picture using a ML CNN model built with TensorFlow/Keras. 
                   Trained and fine-tuned a CNN model using VGG16 + transfer learning in Python with TensorFlow/Keras.
                   Created a simple user interface to classify cat breeds from images and achieved 92% test accuracy for cat breed detection.
                 </p>
@@ -491,6 +360,36 @@ export default function Home() {
                 <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-bold text-primary">UST – Hillsboro, OR</h4>
+                    <span className="text-sm text-gray-500 font-medium">Oct 2025 – Present</span>
+                  </div>
+                  <p className="text-gray-600 font-medium mb-4">Product Engineering Services Technician (Contracting for Intel Corporation)</p>
+                  <p className="text-gray-700 mb-4">
+                    Collaborate with Intel engineers to triage hardware and firmware issues, perform analysis, and verify fixes
+                    Pre-release silicon validation and bring-up for next-generation server and workstation platforms
+                    Develop Python automation scripts to streamline regression testing and reduce manual testing cycles
+                    Debug, maintain, and assemble complex test systems
+                    Flash firmware and hardware components in Linux and customer particular OS environments
+                    Log and track issues using Jira and internal Intel tools
+                    Maintain thorough documentation of test configurations, hardware inventory, and validation outcomes
+
+                  </p>
+                  <div className="text-sm text-gray-600 mb-4">
+                    <span className="font-medium">Key achievements:</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Linux</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Hardware Validation</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">BIOS/Firmware</span>
+                    <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">Jira</span>
+                    <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Automation</span>
+                  </div>
+                </div>
+                
+                <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
+                  <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-bold text-primary">BlackBerry/Cylance</h4>
                     <span className="text-sm text-gray-500 font-medium">Dec 2022 - Apr 2023</span>
                   </div>
@@ -517,20 +416,23 @@ export default function Home() {
                     <h4 className="text-xl font-bold text-primary">Viking Veterinary Care</h4>
                     <span className="text-sm text-gray-500 font-medium">Jun 2024 - Sep 2024</span>
                   </div>
-                  <p className="text-gray-600 font-medium mb-4">Technician Assistant</p>
+                  <p className="text-gray-600 font-medium mb-4">Technician Assistant & PawRx Beta Testing Partner</p>
                   <p className="text-gray-700 mb-4">
-                    Performed essential treatments including vaccine administration, diagnostic testing (bloodwork, urinalysis), and imaging support (X-rays). 
-                    Assisted in daily patient care and post-operative monitoring, ensuring timely treatment delivery and proper animal handling in a high-paced clinical setting.
+                    Beta tested and validated PawRx (my full-stack pet medication safety platform) with real veterinary workflows and patient data. 
+                    Gathered user feedback from veterinarians and technicians to iterate on features, UI/UX, and AI drug interaction detection accuracy. 
+                    Performed essential treatments including vaccine administration, diagnostic testing, and imaging support while integrating tech solutions into clinical practice.
                   </p>
                   <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Collaborated closely with veterinarians and technicians while beta testing PawRx project 
-                    with Viking to improve pet medication education and safety.
+                    <span className="font-medium">Key achievements:</span> Successfully deployed PawRx platform with ~10 active users in a real veterinary environment. 
+                    Collaborated with veterinary staff to improve pet medication education and safety through technology. 
+                    Bridged the gap between software development and real-world clinical application.
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Animal Care</span>
-                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Medical Procedures</span>
                     <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Beta Testing</span>
-                    <span className="text-xs px-2 py-1 bg-pink-100 text-pink-800 rounded-full">Veterinary</span>
+                    <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Full-Stack Development</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">User Feedback</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Product Validation</span>
+                    <span className="text-xs px-2 py-1 bg-pink-100 text-pink-800 rounded-full">Veterinary Tech</span>
                   </div>
                 </div>
                 

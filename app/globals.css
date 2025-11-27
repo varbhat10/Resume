@@ -10,9 +10,10 @@
   :root {
     --background: 0 0% 96%;  /* Light background */
     --foreground: 0 0% 21%;  /* Dark text */
-    --primary: 25 85% 53%;   /* Warmer, more personal orange #E67E22 */
-    --accent: 200 98% 39%;   /* Cool blue accent #0A7CB0 */
-    --secondary: 142 71% 45%; /* Green accent #2ECC71 */
+    --primary: 0 75% 45%;    /* Portland sign red #C93838 */
+    --accent: 145 35% 35%;   /* Oregon forest green #3A5F47 */
+    --secondary: 30 45% 55%; /* Earthy brown #A67C52 */
+    --portland-cream: 45 40% 92%; /* Cream/off-white #F5F1E8 */
   }
 
   body {

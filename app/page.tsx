@@ -364,19 +364,15 @@ export default function Home() {
                     <span className="text-sm text-gray-500 font-medium">Oct 2025 – Present</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Product Engineering Services Technician (Contracting for Intel Corporation)</p>
-                  <p className="text-gray-700 mb-4">
-                    Collaborate with Intel engineers to triage hardware and firmware issues, perform analysis, and verify fixes
-                    Pre-release silicon validation and bring-up for next-generation server and workstation platforms
-                    Develop Python automation scripts to streamline regression testing and reduce manual testing cycles
-                    Debug, maintain, and assemble complex test systems
-                    Flash firmware and hardware components in Linux and customer particular OS environments
-                    Log and track issues using Jira and internal Intel tools
-                    Maintain thorough documentation of test configurations, hardware inventory, and validation outcomes
-
-                  </p>
-                  <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span>
-                  </div>
+                  <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
+                    <li>Collaborate with Intel engineers to triage hardware and firmware issues, perform analysis, and verify fixes</li>
+                    <li>Pre-release silicon validation and bring-up for next-generation server and workstation platforms</li>
+                    <li>Develop Python automation scripts to streamline regression testing and reduce manual testing cycles</li>
+                    <li>Debug, maintain, and assemble complex test systems</li>
+                    <li>Flash firmware and hardware components in Linux and customer particular OS environments</li>
+                    <li>Log and track issues using Jira and internal Intel tools</li>
+                    <li>Maintain thorough documentation of test configurations, hardware inventory, and validation outcomes</li>
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
                     <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Linux</span>
@@ -394,14 +390,15 @@ export default function Home() {
                     <span className="text-sm text-gray-500 font-medium">Dec 2022 - Apr 2023</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Software Developer Intern</p>
-                  <p className="text-gray-700 mb-4">
-                    Engineered automated integration and unit tests in Python to validate RESTful APIs, improving testing coverage by 40%. 
-                    Used Postman and internal tools to debug endpoints and verify functionality. Deployed AWS services (EC2, S3, DynamoDB) to support scalable backend systems.
-                  </p>
-                  <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Implemented Jenkins CI/CD pipelines, diagnosed container issues in Dockerized environments, 
-                    and collaborated across frontend (React/JS) and backend (FastAPI/Flask/Python) layers to resolve bugs.
-                  </div>
+                  <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
+                    <li>Engineered automated integration and unit tests in Python to validate RESTful APIs</li>
+                    <li>Improved testing coverage by 40%</li>
+                    <li>Used Postman and internal tools to debug endpoints and verify functionality</li>
+                    <li>Deployed AWS services (EC2, S3, DynamoDB) to support scalable backend systems</li>
+                    <li>Implemented Jenkins CI/CD pipelines to advance container development process</li>
+                    <li>Diagnosed container issues in Dockerized environments</li>
+                    <li>Collaborated across frontend (React/JS) and backend (FastAPI/Flask/Python) layers to resolve bugs</li>
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
                     <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">AWS</span>
@@ -417,16 +414,14 @@ export default function Home() {
                     <span className="text-sm text-gray-500 font-medium">Jun 2024 - Sep 2024</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Technician Assistant & PawRx Beta Testing Partner</p>
-                  <p className="text-gray-700 mb-4">
-                    Beta tested and validated PawRx (my full-stack pet medication safety platform) with real veterinary workflows and patient data. 
-                    Gathered user feedback from veterinarians and technicians to iterate on features, UI/UX, and AI drug interaction detection accuracy. 
-                    Performed essential treatments including vaccine administration, diagnostic testing, and imaging support while integrating tech solutions into clinical practice.
-                  </p>
-                  <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Successfully deployed PawRx platform with ~10 active users in a real veterinary environment. 
-                    Collaborated with veterinary staff to improve pet medication education and safety through technology. 
-                    Bridged the gap between software development and real-world clinical application.
-                  </div>
+                  <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
+                    <li>Beta tested and validated PawRx (my full-stack pet medication safety platform) with real veterinary workflows and patient data</li>
+                    <li>Gathered user feedback from veterinarians and technicians to iterate on features, UI/UX, and AI drug interaction detection accuracy</li>
+                    <li>Performed essential treatments including vaccine administration, diagnostic testing, and imaging support</li>
+                    <li>Successfully deployed PawRx platform with ~10 active users in a real veterinary environment</li>
+                    <li>Collaborated with veterinary staff to improve pet medication education and safety through technology</li>
+                    <li>Bridged the gap between software development and real-world clinical application</li>
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Beta Testing</span>
                     <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Full-Stack Development</span>
@@ -443,14 +438,12 @@ export default function Home() {
                     <span className="text-sm text-gray-500 font-medium">Jun 2021 - Sep 2021</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Research Volunteer</p>
-                  <p className="text-gray-700 mb-4">
-                    Created educational websites using HTML/CSS/JavaScript for tutoring and outreach. 
-                    Supported underrepresented students in STEM through workshops and peer guidance, participating in research focused on early exposure to computer science concepts.
-                  </p>
-                  <div className="text-sm text-gray-600 mb-4">
-                    <span className="font-medium">Key achievements:</span> Presented findings on Malaria research to a group of 50+ attendees, 
-                    developed web-based educational tools for STEM outreach initiatives.
-                  </div>
+                  <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
+                    <li>Created educational websites using HTML/CSS/JavaScript for tutoring and outreach</li>
+                    <li>Supported underrepresented students in STEM through workshops and peer guidance</li>
+                    <li>Participated in research focused on early exposure to computer science concepts</li>
+                    <li>Presented findings on Malaria research to a group of 50+ attendees</li>
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">HTML/CSS</span>
                     <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
@@ -474,10 +467,11 @@ export default function Home() {
                     <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Coordinated inventory movement and team communication during peak customer hours. 
-                    Trained new team members on POS and in-store customer service standards. Recognized for consistency and problem-solving under pressure.
-                  </p>
+                  <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                    <li>Coordinated inventory movement and team communication during peak customer hours</li>
+                    <li>Trained new team members on POS and in-store customer service standards</li>
+                    <li>Recognized for consistency and problem-solving under pressure</li>
+                  </ul>
                 </div>
                 
                 <div className="relative pl-6 border-l-2 border-gray-200">
@@ -487,9 +481,9 @@ export default function Home() {
                     <span className="text-sm text-gray-500">Jun 2022 - Aug 2022</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-2">Team Specialist</p>
-                  <p className="text-gray-600 text-sm">
-                    Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment.
-                  </p>
+                  <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                    <li>Developed skills in customer service, conflict resolution, and prioritization in a fast-paced retail environment</li>
+                  </ul>
                 </div>
                 
                 <div className="relative pl-6 border-l-2 border-gray-200">
@@ -499,9 +493,9 @@ export default function Home() {
                     <span className="text-sm text-gray-500">Jun 2021 - Aug 2021</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-2">Service Champion</p>
-                  <p className="text-gray-600 text-sm">
-                    Operated drive-through and register under high-volume conditions while maintaining great customer service.
-                  </p>
+                  <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                    <li>Operated drive-through and register under high-volume conditions while maintaining great customer service</li>
+                  </ul>
                 </div>
               </div>
             </div>

@@ -116,8 +116,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
                   Computer Science major with a Business minor at Oregon State University (3.88 GPA). 
-                  The problem-solving aspect keeps me hooked. Whether it's debugging code in the AMs or 
-                  setting up databases, I genuinely love what I do. I also have a passion for management and leadership. I hope to pursue the managerial route in the future. 
+                  Whether it's debugging code in the AMs or setting up databases, I genuinely love
+                  what I do. I also have a passion for management and leadership. I hope to pursue the managerial route in the future. 
                 </p>
               </div>
               <div className="relative reverse-tilt organic-spacing">
@@ -151,9 +151,9 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">✌️</p>
                 <h3 className="text-xl font-bold mb-2">Life Outside Code</h3>
                 <p className="text-gray-600">
-                  When I'm not coding, I'm probably at the gym, or hanging out with my friends 
+                  When I'm not coding I'm probably at the gym, or hanging out with my friends 
                  on a quest to find the spiciest food in town. Recently got back from Japan 
-                  (incredible trip!) and have a goal to travel the world.
+                 and have a goal to travel the world.
                 </p>
               </div>
             </div>

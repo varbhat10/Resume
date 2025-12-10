@@ -26,8 +26,8 @@ export default function Home() {
                 Product Engineering Services Technician @ Intel • Portland, OR
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
-                Oregon State CS grad working on silicone validation and testing for next-gen server platforms on a contract with Intel Corporation. 
-                I am always hungry learn more in the tech/business industry to contriubute to a lasting impact.
+                Oregon State CS grad working on silicone validation and testing for next-gen server platforms. Contract with Intel Corporation. 
+                Open to hire in the tech/business industry.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 

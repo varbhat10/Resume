@@ -26,9 +26,9 @@ export default function Home() {
                 System Administrator @ Intel • Portland, OR
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
-                Oregon State CS grad (Summa Cum Laude) contracting with Intel Corporation through UST. 
-                Recently promoted to System Administrator after doing pre-release silicon bring-up and architecture-level debug on next-gen server platforms.
-                Open to full-time opportunities in software engineering, cloud, or systems.
+                Oregon State CS graduate contracting with Intel Corporation through UST. 
+                Recently promoted to System Administrator after doing pre-release silicon bring-up and architecture-level debug/validation on enterprise server platforms.
+                Open to opportunities in systems engineering, validation, or infrastructure.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
@@ -269,11 +269,14 @@ export default function Home() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
             >
               <div className="lg:order-2 relative">
-                <div className="aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="text-6xl mb-4">🤖</div>
-                    <p className="text-indigo-700 font-semibold text-lg">First Tech Challenge</p>
-                    <p className="text-indigo-500 text-sm">Robotics Competition</p>
+                <div className="aspect-video rounded-lg overflow-hidden bg-white flex items-center justify-center p-6">
+                  <div className="relative w-full h-full">
+                    <Image
+                      src="/Resume/images/ftc.png"
+                      alt="FIRST Tech Challenge"
+                      fill
+                      className="object-contain"
+                    />
                   </div>
                 </div>
               </div>
@@ -420,6 +423,7 @@ export default function Home() {
                     <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">Infrastructure</span>
                     <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Provisioning</span>
                     <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">BIOS/Firmware</span>
+                    <span className="text-xs px-2 py-1 bg-teal-100 text-teal-800 rounded-full">Networking</span>
                   </div>
                 </div>
 

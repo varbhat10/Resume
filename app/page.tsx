@@ -23,11 +23,12 @@ export default function Home() {
                 <span className="text-primary block mt-2">Varun Bhat</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl mb-6 text-gray-600">
-                Product Engineering Services Technician @ Intel • Portland, OR
+                System Administrator @ Intel • Portland, OR
               </h2>
               <p className="text-lg mb-8 max-w-lg text-gray-700">
-                Oregon State CS grad working on silicone validation and testing for next-gen server platforms. Contract with Intel Corporation. 
-                Open to hire in the tech/business industry.
+                Oregon State CS grad (Summa Cum Laude) contracting with Intel Corporation through UST. 
+                Recently promoted to System Administrator after doing pre-release silicon bring-up and architecture-level debug on next-gen server platforms.
+                Open to full-time opportunities in software engineering, cloud, or systems.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <a 
@@ -115,9 +116,10 @@ export default function Home() {
                 <p className="text-sm text-gray-500 italic text-center mb-3">The hike got to me.</p>
                 <h3 className="text-xl font-bold mb-2">Academic Life</h3>
                 <p className="text-gray-600">
-                  Computer Science major with a Business minor at Oregon State University (3.88 GPA). 
-                  Whether it's debugging code in the AMs or setting up databases, I genuinely love
-                  what I do. I also have a passion for management and leadership. I hope to pursue the managerial route in the future. 
+                  Computer Science major with a Business minor at Oregon State University (3.88 GPA, Summa Cum Laude). 
+                  Relevant coursework in Computer Architecture, Operating Systems, Computer Networks, and Embedded Systems.
+                  Whether it's debugging silicon at the firmware layer or building full-stack apps, I genuinely love what I do. 
+                  I have a passion for leadership and hope to pursue the managerial route in the future.
                 </p>
               </div>
               <div className="relative reverse-tilt organic-spacing">
@@ -258,7 +260,42 @@ export default function Home() {
               </div>
             </motion.div>
             
-            {/* Project 3 - Cat Shazam */}
+            {/* Project 3 - FTC Robotics */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+            >
+              <div className="lg:order-2 relative">
+                <div className="aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
+                  <div className="text-center p-8">
+                    <div className="text-6xl mb-4">🤖</div>
+                    <p className="text-indigo-700 font-semibold text-lg">First Tech Challenge</p>
+                    <p className="text-indigo-500 text-sm">Robotics Competition</p>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:order-1">
+                <h3 className="text-2xl font-bold mb-4">First Tech Challenge Robotics</h3>
+                <p className="text-gray-600 mb-4">
+                  Hands-on experience with electromechanical systems, embedded control, CAD, and systematic hardware/software debugging in a national robotics competition. 
+                  Designed, built, and programmed competitive robots with full mechanical and software integration. 
+                  Achieved top regional placement, advancing in the national competition.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Embedded Systems</span>
+                  <span className="text-xs px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">CAD</span>
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Electromechanics</span>
+                  <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">Hardware Debug</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 text-orange-800 rounded-full">Java</span>
+                  <span className="text-xs px-3 py-1 bg-red-100 text-red-800 rounded-full">Robotics</span>
+                </div>
+              </div>
+            </motion.div>
+            
+            {/* Project 5 - Cat Shazam */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -294,7 +331,7 @@ export default function Home() {
               </div>
             </motion.div>
             
-            {/* Project 4 - Resume Website */}
+            {/* Project 6 - Resume Website */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -357,28 +394,58 @@ export default function Home() {
                 💻 Software & Tech Experience
               </h3>
               <div className="space-y-12">
+                {/* System Administrator - promoted role */}
                 <div className="relative pl-8 border-l-4 border-primary bg-primary/5 rounded-r-lg p-6">
                   <div className="absolute -left-2 top-6 w-4 h-4 bg-primary rounded-full"></div>
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
                     <h4 className="text-xl font-bold text-primary">UST – Hillsboro, OR</h4>
-                    <span className="text-sm text-gray-500 font-medium">Oct 2025 – Present</span>
+                    <span className="text-sm text-gray-500 font-medium">Feb 2026 – Present</span>
+                  </div>
+                  <div className="flex items-center gap-2 mb-4">
+                    <p className="text-gray-600 font-medium">System Administrator (Contracting for Intel Corporation)</p>
+                    <span className="text-xs px-2 py-0.5 bg-green-100 text-green-800 rounded-full font-semibold">↑ Promoted</span>
+                  </div>
+                  <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
+                    <li>Internal promotion recognizing expanded scope in system administration and platform ownership across Intel validation infrastructure</li>
+                    <li>Administer and maintain Linux and Windows server environments used in silicon validation and platform bring-up workflows</li>
+                    <li>Manage system provisioning, imaging, and configuration for pre-release hardware lab environments</li>
+                    <li>Oversee hardware inventory, test rack builds, and system health across multiple platform generations</li>
+                    <li>Coordinate OS and firmware deployment pipelines to support continuous validation cycles</li>
+                    <li>Collaborate with Intel engineering teams to resolve infrastructure-level blockers affecting platform bring-up timelines</li>
+                  </ul>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Linux</span>
+                    <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Windows Server</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">System Administration</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">Infrastructure</span>
+                    <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Provisioning</span>
+                    <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">BIOS/Firmware</span>
+                  </div>
+                </div>
+
+                {/* PEST - original role */}
+                <div className="relative pl-8 border-l-4 border-primary/50 bg-primary/[0.03] rounded-r-lg p-6">
+                  <div className="absolute -left-2 top-6 w-4 h-4 bg-primary/50 rounded-full"></div>
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-bold text-primary/80">UST – Hillsboro, OR</h4>
+                    <span className="text-sm text-gray-500 font-medium">Nov 2025 – Feb 2026</span>
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Product Engineering Services Technician (Contracting for Intel Corporation)</p>
                   <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
-                    <li>Collaborate with Intel engineers to triage hardware and firmware issues, perform analysis, and verify fixes</li>
-                    <li>Pre-release silicon validation and bring-up for next-generation server and workstation platforms</li>
-                    <li>Develop Python automation scripts to streamline regression testing and reduce manual testing cycles</li>
-                    <li>Debug, maintain, and assemble complex test systems</li>
-                    <li>Flash firmware and hardware components in Linux and customer particular OS environments</li>
-                    <li>Log and track issues using Jira and internal Intel tools</li>
-                    <li>Maintain thorough documentation of test configurations, hardware inventory, and validation outcomes</li>
+                    <li>Performed low-level system debug on pre-release multi-socket server platforms using Intel ITP and JTAG to analyze processor initialization, platform configuration, and firmware–hardware interactions</li>
+                    <li>Executed silicon bring-up from power-on through OS boot, validating CPU, memory, and I/O subsystem initialization across evolving firmware and platform revisions</li>
+                    <li>Investigated PCIe topology, lane training, and device enumeration failures to identify fabric-level and platform integration issues impacting accelerator and GPU connectivity</li>
+                    <li>Analyzed memory subsystem behavior including training, allocation, and stability to diagnose platform faults spanning CPU, firmware, and DIMM configuration layers</li>
+                    <li>Developed Python automation scripts to streamline regression testing and reduce manual testing cycles</li>
+                    <li>Provisioned and validated Linux and Windows environments to exercise platform features, drivers, and workload scenarios during silicon validation</li>
+                    <li>Logged, tracked, and validated defect resolution with design, firmware, and validation teams</li>
                   </ul>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
                     <span className="text-xs px-2 py-1 bg-purple-100 text-purple-800 rounded-full">Linux</span>
-                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Hardware Validation</span>
-                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">BIOS/Firmware</span>
-                    <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">Jira</span>
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-800 rounded-full">Silicon Validation</span>
+                    <span className="text-xs px-2 py-1 bg-orange-100 text-orange-800 rounded-full">JTAG/ITP</span>
+                    <span className="text-xs px-2 py-1 bg-gray-100 text-gray-800 rounded-full">PCIe</span>
                     <span className="text-xs px-2 py-1 bg-cyan-100 text-cyan-800 rounded-full">Automation</span>
                   </div>
                 </div>
@@ -391,12 +458,12 @@ export default function Home() {
                   </div>
                   <p className="text-gray-600 font-medium mb-4">Software Developer Intern</p>
                   <ul className="text-gray-700 mb-4 space-y-2 list-disc list-inside">
-                    <li>Engineered automated integration and unit tests in Python to validate RESTful APIs</li>
-                    <li>Improved testing coverage by 40%</li>
+                    <li>Developed automated integration and unit tests in Python to validate RESTful APIs</li>
+                    <li>Improved testing coverage of daily runs by 80%</li>
+                    <li>Wrote comprehensive test plans and documentation for successful and frictionless deployments</li>
                     <li>Used Postman and internal tools to debug endpoints and verify functionality</li>
                     <li>Deployed AWS services (EC2, S3, DynamoDB) to support scalable backend systems</li>
-                    <li>Implemented Jenkins CI/CD pipelines to advance container development process</li>
-                    <li>Diagnosed container issues in Dockerized environments</li>
+                    <li>Implemented Jenkins CI/CD pipelines and diagnosed container issues in Dockerized environments</li>
                     <li>Collaborated across frontend (React/JS) and backend (FastAPI/Flask/Python) layers to resolve bugs</li>
                   </ul>
                   <div className="flex flex-wrap gap-2">

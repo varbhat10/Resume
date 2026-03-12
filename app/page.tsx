@@ -611,11 +611,6 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-3xl font-bold mb-8">Want to work together?</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-              Looking for opportunities where I can actually make a difference and learn more.
-            </p>
-            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto mb-8">
               <div className="text-center">
                 <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
